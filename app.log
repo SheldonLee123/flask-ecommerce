@@ -1188,3 +1188,7 @@ werkzeug.exceptions.NotFound: 404 Not Found: The requested URL was not found on 
 2018-12-16 02:04:40,474 - WARNING - views.py - index - 26 - this is a warning log
 2018-12-16 02:04:40,474 - INFO - views.py - index - 27 - this is a info log
 2018-12-16 02:04:40,474 - DEBUG - views.py - index - 28 - this is a debug log
+2018-12-16 15:10:36,166 - ERROR - views.py - index - 25 - this is a error log
+2018-12-16 15:10:36,167 - WARNING - views.py - index - 26 - this is a warning log
+2018-12-16 15:10:36,167 - INFO - views.py - index - 27 - this is a info log
+2018-12-16 15:10:36,167 - DEBUG - views.py - index - 28 - this is a debug log
