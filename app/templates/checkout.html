@@ -1,0 +1,49 @@
+{% extends 'layout.html' %}
+
+{% block body %}
+<!-- checkout -->
+<div class="content inside-page checkout">
+
+  <h2 class="title">Checkout</h2>
+  <div class="breadcrumb"><a href="/index">Home</a> / Checkout</div>
+
+  <div class="shopping-cart">
+    <!-- fieldsets -->
+
+
+    <div class="row product-list title hidden-xs">
+      <div class="col-xs-8">Product</div>
+      <div class="col-xs-2 center price">Price</div>
+      <div class="col-xs-1">Qty</div>
+      <div class="col-xs-1 center">Action</div>
+    </div>
+    <hr>
+    {% for item in cart %}
+    <form action="/edit_cart/{{item.product.id}}" method="post">
+      <div class="row product-list">
+        <div class="col-xs-3 col-sm-2"><a href="product.html"><img src={{url_for('static',filename='images/photos/'+item.product.image)}} class="img-responsive" alt="product"></a></div>
+        <div class="col-xs-9 col-sm-6 title"><a href="product.html">{{item.product.name}}</a></div>
+        <div class="col-xs-4 col-sm-2 center price">${{item.product.actual_price}}</div>
+        <div class="col-xs-3 col-sm-1"><input class="form-control" value={{item.count}} name="count"></div>
+        <div class="col-xs-2 col-sm-1 center"><a href="/delete_cart/{{item.product.id}}"><i class="fa fa-close"></i></a></div>
+        <div class="col-xs-2 col-sm-1 center"><a href="#"><i class="fa"></i></a></div>
+        <div class="col-xs-2 col-sm-1 center"><input type="submit" class="btn btn-primary" value="ok" /></div>
+      </div>
+    </form>
+    {% endfor %}
+
+
+    <div class="row product-list grandtotal">
+      <div class="col-xs-8">Total</div>
+      <div class="col-xs-2 center price">${{total_price}}</div>
+    </div>
+
+
+  </div>
+  <hr>
+  <a href="/collections" class="btn btn-primary pull-left">Continue Shopping</a>
+  <a href="/payment" class="btn btn-primary pull-right">Proceed Checkout</a>
+
+</div>
+<!-- form -->
+{% endblock %}

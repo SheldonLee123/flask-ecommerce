@@ -1,0 +1,45 @@
+{% extends 'layout.html' %}
+
+{% block body %}
+<!-- checkout -->
+<div class="content inside-page register">
+  <h2 class="title">Add Product</h2>
+  <div class="breadcrumb"><a href="/index">Home</a> / Add Product</div>
+
+  <form method="POST" enctype='multipart/form-data' action="">
+    {% from "includes/_formhelpers.html" import render_field %}
+    <fieldset>
+      <div class="form-horizontal content-center center">
+
+        {{ form.hidden_tag() }}
+        {% for field in form %}
+        <div class="form-group">
+          <div class="col-sm-12">
+            {{ render_field(field, class="form-control") }}
+          </div>
+        </div>
+        {% endfor %}
+
+        <div class="form-group">
+          <div class="col-sm-12">
+            <label for="inputfile">Image Upload</label>
+            <input id="f_upload" type="file" class="file" name="image" data-show-preview="false">
+          </div>
+        </div>
+
+        <div class="col-sm-8 col-sm-offset-4"><input type="submit" class="btn btn-primary pull-left" value="Add an Product"></div>
+
+
+      </div>
+
+
+
+
+    </fieldset>
+  </form>
+
+
+
+</div>
+
+{% endblock %}

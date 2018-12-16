@@ -1,0 +1,1190 @@
+2018-12-14 17:42:48,858 - ERROR - views.py - index - 24 - this is a error log
+2018-12-14 17:42:48,859 - WARNING - views.py - index - 25 - this is a warning log
+2018-12-14 17:42:48,859 - INFO - views.py - index - 26 - this is a info log
+2018-12-14 17:42:48,859 - DEBUG - views.py - index - 27 - this is a debug log
+2018-12-14 17:43:16,177 - ERROR - views.py - page_not_found - 276 - error 404: 404 Not Found: The requested URL was not found on the server.  If you entered the URL manually please check your spelling and try again.
+Traceback (most recent call last):
+  File "/var/www/todolist/venv/lib/python3.6/site-packages/flask/app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/var/www/todolist/venv/lib/python3.6/site-packages/flask/app.py", line 1791, in dispatch_request
+    self.raise_routing_exception(req)
+  File "/var/www/todolist/venv/lib/python3.6/site-packages/flask/app.py", line 1774, in raise_routing_exception
+    raise request.routing_exception
+  File "/var/www/todolist/venv/lib/python3.6/site-packages/flask/ctx.py", line 336, in match_request
+    self.url_adapter.match(return_rule=True)
+  File "/var/www/todolist/venv/lib/python3.6/site-packages/werkzeug/routing.py", line 1581, in match
+    raise NotFound()
+werkzeug.exceptions.NotFound: 404 Not Found: The requested URL was not found on the server.  If you entered the URL manually please check your spelling and try again.
+2018-12-14 17:51:32,112 - ERROR - views.py - index - 24 - this is a error log
+2018-12-14 17:51:32,112 - WARNING - views.py - index - 25 - this is a warning log
+2018-12-14 17:51:32,112 - INFO - views.py - index - 26 - this is a info log
+2018-12-14 17:51:32,112 - DEBUG - views.py - index - 27 - this is a debug log
+2018-12-14 18:06:17,691 - ERROR - views.py - index - 24 - this is a error log
+2018-12-14 18:06:17,691 - WARNING - views.py - index - 25 - this is a warning log
+2018-12-14 18:06:17,691 - INFO - views.py - index - 26 - this is a info log
+2018-12-14 18:06:17,692 - DEBUG - views.py - index - 27 - this is a debug log
+2018-12-14 20:24:09,369 - ERROR - views.py - index - 24 - this is a error log
+2018-12-14 20:24:09,377 - WARNING - views.py - index - 25 - this is a warning log
+2018-12-14 20:24:09,377 - INFO - views.py - index - 26 - this is a info log
+2018-12-14 20:24:09,377 - DEBUG - views.py - index - 27 - this is a debug log
+2018-12-14 20:39:59,164 - ERROR - views.py - index - 24 - this is a error log
+2018-12-14 20:39:59,164 - WARNING - views.py - index - 25 - this is a warning log
+2018-12-14 20:39:59,165 - INFO - views.py - index - 26 - this is a info log
+2018-12-14 20:39:59,165 - DEBUG - views.py - index - 27 - this is a debug log
+2018-12-14 20:46:47,881 - ERROR - views.py - index - 24 - this is a error log
+2018-12-14 20:46:47,881 - WARNING - views.py - index - 25 - this is a warning log
+2018-12-14 20:46:47,881 - INFO - views.py - index - 26 - this is a info log
+2018-12-14 20:46:47,881 - DEBUG - views.py - index - 27 - this is a debug log
+2018-12-14 20:49:13,828 - ERROR - views.py - index - 24 - this is a error log
+2018-12-14 20:49:13,828 - WARNING - views.py - index - 25 - this is a warning log
+2018-12-14 20:49:13,828 - INFO - views.py - index - 26 - this is a info log
+2018-12-14 20:49:13,828 - DEBUG - views.py - index - 27 - this is a debug log
+2018-12-14 20:49:24,199 - ERROR - views.py - index - 24 - this is a error log
+2018-12-14 20:49:24,199 - WARNING - views.py - index - 25 - this is a warning log
+2018-12-14 20:49:24,199 - INFO - views.py - index - 26 - this is a info log
+2018-12-14 20:49:24,199 - DEBUG - views.py - index - 27 - this is a debug log
+2018-12-14 20:53:02,280 - ERROR - views.py - index - 24 - this is a error log
+2018-12-14 20:53:02,280 - WARNING - views.py - index - 25 - this is a warning log
+2018-12-14 20:53:02,281 - INFO - views.py - index - 26 - this is a info log
+2018-12-14 20:53:02,281 - DEBUG - views.py - index - 27 - this is a debug log
+2018-12-14 20:53:48,760 - ERROR - views.py - index - 24 - this is a error log
+2018-12-14 20:53:48,760 - WARNING - views.py - index - 25 - this is a warning log
+2018-12-14 20:53:48,761 - INFO - views.py - index - 26 - this is a info log
+2018-12-14 20:53:48,761 - DEBUG - views.py - index - 27 - this is a debug log
+2018-12-14 20:53:54,198 - ERROR - views.py - index - 24 - this is a error log
+2018-12-14 20:53:54,198 - WARNING - views.py - index - 25 - this is a warning log
+2018-12-14 20:53:54,198 - INFO - views.py - index - 26 - this is a info log
+2018-12-14 20:53:54,198 - DEBUG - views.py - index - 27 - this is a debug log
+2018-12-14 20:55:58,033 - ERROR - views.py - index - 24 - this is a error log
+2018-12-14 20:55:58,033 - WARNING - views.py - index - 25 - this is a warning log
+2018-12-14 20:55:58,033 - INFO - views.py - index - 26 - this is a info log
+2018-12-14 20:55:58,033 - DEBUG - views.py - index - 27 - this is a debug log
+2018-12-14 20:56:03,328 - ERROR - views.py - index - 24 - this is a error log
+2018-12-14 20:56:03,328 - WARNING - views.py - index - 25 - this is a warning log
+2018-12-14 20:56:03,328 - INFO - views.py - index - 26 - this is a info log
+2018-12-14 20:56:03,328 - DEBUG - views.py - index - 27 - this is a debug log
+2018-12-14 20:57:53,460 - ERROR - views.py - index - 24 - this is a error log
+2018-12-14 20:57:53,461 - WARNING - views.py - index - 25 - this is a warning log
+2018-12-14 20:57:53,461 - INFO - views.py - index - 26 - this is a info log
+2018-12-14 20:57:53,461 - DEBUG - views.py - index - 27 - this is a debug log
+2018-12-14 20:57:59,787 - ERROR - views.py - index - 24 - this is a error log
+2018-12-14 20:57:59,787 - WARNING - views.py - index - 25 - this is a warning log
+2018-12-14 20:57:59,787 - INFO - views.py - index - 26 - this is a info log
+2018-12-14 20:57:59,787 - DEBUG - views.py - index - 27 - this is a debug log
+2018-12-14 21:13:20,722 - ERROR - views.py - index - 24 - this is a error log
+2018-12-14 21:13:20,724 - WARNING - views.py - index - 25 - this is a warning log
+2018-12-14 21:13:20,727 - INFO - views.py - index - 26 - this is a info log
+2018-12-14 21:13:20,727 - DEBUG - views.py - index - 27 - this is a debug log
+2018-12-14 21:16:17,563 - ERROR - views.py - index - 24 - this is a error log
+2018-12-14 21:16:17,563 - WARNING - views.py - index - 25 - this is a warning log
+2018-12-14 21:16:17,564 - INFO - views.py - index - 26 - this is a info log
+2018-12-14 21:16:17,564 - DEBUG - views.py - index - 27 - this is a debug log
+2018-12-14 21:16:25,814 - ERROR - views.py - index - 24 - this is a error log
+2018-12-14 21:16:25,815 - WARNING - views.py - index - 25 - this is a warning log
+2018-12-14 21:16:25,815 - INFO - views.py - index - 26 - this is a info log
+2018-12-14 21:16:25,815 - DEBUG - views.py - index - 27 - this is a debug log
+2018-12-14 21:17:29,336 - ERROR - views.py - index - 24 - this is a error log
+2018-12-14 21:17:29,336 - WARNING - views.py - index - 25 - this is a warning log
+2018-12-14 21:17:29,337 - INFO - views.py - index - 26 - this is a info log
+2018-12-14 21:17:29,337 - DEBUG - views.py - index - 27 - this is a debug log
+2018-12-14 21:19:41,734 - ERROR - views.py - index - 24 - this is a error log
+2018-12-14 21:19:41,734 - WARNING - views.py - index - 25 - this is a warning log
+2018-12-14 21:19:41,737 - INFO - views.py - index - 26 - this is a info log
+2018-12-14 21:19:41,737 - DEBUG - views.py - index - 27 - this is a debug log
+2018-12-14 21:20:07,816 - ERROR - views.py - index - 24 - this is a error log
+2018-12-14 21:20:07,816 - WARNING - views.py - index - 25 - this is a warning log
+2018-12-14 21:20:07,816 - INFO - views.py - index - 26 - this is a info log
+2018-12-14 21:20:07,816 - DEBUG - views.py - index - 27 - this is a debug log
+2018-12-14 21:20:22,427 - ERROR - views.py - index - 24 - this is a error log
+2018-12-14 21:20:22,427 - WARNING - views.py - index - 25 - this is a warning log
+2018-12-14 21:20:22,427 - INFO - views.py - index - 26 - this is a info log
+2018-12-14 21:20:22,427 - DEBUG - views.py - index - 27 - this is a debug log
+2018-12-14 22:28:58,931 - ERROR - views.py - index - 24 - this is a error log
+2018-12-14 22:28:58,940 - WARNING - views.py - index - 25 - this is a warning log
+2018-12-14 22:28:58,941 - INFO - views.py - index - 26 - this is a info log
+2018-12-14 22:28:58,941 - DEBUG - views.py - index - 27 - this is a debug log
+2018-12-14 22:29:06,535 - ERROR - views.py - index - 24 - this is a error log
+2018-12-14 22:29:06,535 - WARNING - views.py - index - 25 - this is a warning log
+2018-12-14 22:29:06,535 - INFO - views.py - index - 26 - this is a info log
+2018-12-14 22:29:06,535 - DEBUG - views.py - index - 27 - this is a debug log
+2018-12-14 22:30:15,969 - ERROR - views.py - index - 24 - this is a error log
+2018-12-14 22:30:15,969 - WARNING - views.py - index - 25 - this is a warning log
+2018-12-14 22:30:15,969 - INFO - views.py - index - 26 - this is a info log
+2018-12-14 22:30:15,970 - DEBUG - views.py - index - 27 - this is a debug log
+2018-12-14 22:34:22,005 - ERROR - views.py - index - 24 - this is a error log
+2018-12-14 22:34:22,006 - WARNING - views.py - index - 25 - this is a warning log
+2018-12-14 22:34:22,006 - INFO - views.py - index - 26 - this is a info log
+2018-12-14 22:34:22,006 - DEBUG - views.py - index - 27 - this is a debug log
+2018-12-14 22:41:55,485 - ERROR - views.py - index - 24 - this is a error log
+2018-12-14 22:41:55,485 - WARNING - views.py - index - 25 - this is a warning log
+2018-12-14 22:41:55,485 - INFO - views.py - index - 26 - this is a info log
+2018-12-14 22:41:55,485 - DEBUG - views.py - index - 27 - this is a debug log
+2018-12-14 22:42:02,665 - ERROR - views.py - index - 24 - this is a error log
+2018-12-14 22:42:02,665 - WARNING - views.py - index - 25 - this is a warning log
+2018-12-14 22:42:02,665 - INFO - views.py - index - 26 - this is a info log
+2018-12-14 22:42:02,665 - DEBUG - views.py - index - 27 - this is a debug log
+2018-12-14 22:42:10,265 - ERROR - views.py - index - 24 - this is a error log
+2018-12-14 22:42:10,266 - WARNING - views.py - index - 25 - this is a warning log
+2018-12-14 22:42:10,266 - INFO - views.py - index - 26 - this is a info log
+2018-12-14 22:42:10,266 - DEBUG - views.py - index - 27 - this is a debug log
+2018-12-14 22:42:18,929 - ERROR - views.py - index - 24 - this is a error log
+2018-12-14 22:42:18,929 - WARNING - views.py - index - 25 - this is a warning log
+2018-12-14 22:42:18,929 - INFO - views.py - index - 26 - this is a info log
+2018-12-14 22:42:18,929 - DEBUG - views.py - index - 27 - this is a debug log
+2018-12-14 22:44:26,537 - ERROR - views.py - page_not_found - 305 - error 404: 404 Not Found: The requested URL was not found on the server.  If you entered the URL manually please check your spelling and try again.
+Traceback (most recent call last):
+  File "/var/www/todolist/venv/lib/python3.6/site-packages/flask/app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/var/www/todolist/venv/lib/python3.6/site-packages/flask/app.py", line 1791, in dispatch_request
+    self.raise_routing_exception(req)
+  File "/var/www/todolist/venv/lib/python3.6/site-packages/flask/app.py", line 1774, in raise_routing_exception
+    raise request.routing_exception
+  File "/var/www/todolist/venv/lib/python3.6/site-packages/flask/ctx.py", line 336, in match_request
+    self.url_adapter.match(return_rule=True)
+  File "/var/www/todolist/venv/lib/python3.6/site-packages/werkzeug/routing.py", line 1581, in match
+    raise NotFound()
+werkzeug.exceptions.NotFound: 404 Not Found: The requested URL was not found on the server.  If you entered the URL manually please check your spelling and try again.
+2018-12-14 22:46:54,202 - ERROR - views.py - index - 41 - this is a error log
+2018-12-14 22:46:54,202 - WARNING - views.py - index - 42 - this is a warning log
+2018-12-14 22:46:54,202 - INFO - views.py - index - 43 - this is a info log
+2018-12-14 22:46:54,202 - DEBUG - views.py - index - 44 - this is a debug log
+2018-12-14 22:47:00,767 - ERROR - views.py - index - 41 - this is a error log
+2018-12-14 22:47:00,768 - WARNING - views.py - index - 42 - this is a warning log
+2018-12-14 22:47:00,768 - INFO - views.py - index - 43 - this is a info log
+2018-12-14 22:47:00,768 - DEBUG - views.py - index - 44 - this is a debug log
+2018-12-14 22:47:36,339 - ERROR - views.py - index - 41 - this is a error log
+2018-12-14 22:47:36,340 - WARNING - views.py - index - 42 - this is a warning log
+2018-12-14 22:47:36,340 - INFO - views.py - index - 43 - this is a info log
+2018-12-14 22:47:36,340 - DEBUG - views.py - index - 44 - this is a debug log
+2018-12-14 22:47:55,906 - ERROR - views.py - index - 41 - this is a error log
+2018-12-14 22:47:55,906 - WARNING - views.py - index - 42 - this is a warning log
+2018-12-14 22:47:55,906 - INFO - views.py - index - 43 - this is a info log
+2018-12-14 22:47:55,906 - DEBUG - views.py - index - 44 - this is a debug log
+2018-12-14 22:48:19,875 - ERROR - views.py - index - 41 - this is a error log
+2018-12-14 22:48:19,876 - WARNING - views.py - index - 42 - this is a warning log
+2018-12-14 22:48:19,876 - INFO - views.py - index - 43 - this is a info log
+2018-12-14 22:48:19,876 - DEBUG - views.py - index - 44 - this is a debug log
+2018-12-14 22:48:28,821 - ERROR - views.py - index - 41 - this is a error log
+2018-12-14 22:48:28,821 - WARNING - views.py - index - 42 - this is a warning log
+2018-12-14 22:48:28,822 - INFO - views.py - index - 43 - this is a info log
+2018-12-14 22:48:28,822 - DEBUG - views.py - index - 44 - this is a debug log
+2018-12-14 22:48:46,152 - ERROR - views.py - index - 41 - this is a error log
+2018-12-14 22:48:46,153 - WARNING - views.py - index - 42 - this is a warning log
+2018-12-14 22:48:46,153 - INFO - views.py - index - 43 - this is a info log
+2018-12-14 22:48:46,153 - DEBUG - views.py - index - 44 - this is a debug log
+2018-12-14 22:48:51,829 - ERROR - views.py - index - 41 - this is a error log
+2018-12-14 22:48:51,829 - WARNING - views.py - index - 42 - this is a warning log
+2018-12-14 22:48:51,829 - INFO - views.py - index - 43 - this is a info log
+2018-12-14 22:48:51,829 - DEBUG - views.py - index - 44 - this is a debug log
+2018-12-14 22:49:37,769 - ERROR - views.py - index - 41 - this is a error log
+2018-12-14 22:49:37,769 - WARNING - views.py - index - 42 - this is a warning log
+2018-12-14 22:49:37,769 - INFO - views.py - index - 43 - this is a info log
+2018-12-14 22:49:37,769 - DEBUG - views.py - index - 44 - this is a debug log
+2018-12-14 22:49:49,329 - ERROR - views.py - index - 41 - this is a error log
+2018-12-14 22:49:49,329 - WARNING - views.py - index - 42 - this is a warning log
+2018-12-14 22:49:49,329 - INFO - views.py - index - 43 - this is a info log
+2018-12-14 22:49:49,330 - DEBUG - views.py - index - 44 - this is a debug log
+2018-12-14 22:50:12,758 - ERROR - views.py - index - 41 - this is a error log
+2018-12-14 22:50:12,758 - WARNING - views.py - index - 42 - this is a warning log
+2018-12-14 22:50:12,759 - INFO - views.py - index - 43 - this is a info log
+2018-12-14 22:50:12,759 - DEBUG - views.py - index - 44 - this is a debug log
+2018-12-14 22:50:19,605 - ERROR - views.py - index - 41 - this is a error log
+2018-12-14 22:50:19,605 - WARNING - views.py - index - 42 - this is a warning log
+2018-12-14 22:50:19,605 - INFO - views.py - index - 43 - this is a info log
+2018-12-14 22:50:19,605 - DEBUG - views.py - index - 44 - this is a debug log
+2018-12-14 22:52:10,062 - ERROR - views.py - index - 41 - this is a error log
+2018-12-14 22:52:10,063 - WARNING - views.py - index - 42 - this is a warning log
+2018-12-14 22:52:10,064 - INFO - views.py - index - 43 - this is a info log
+2018-12-14 22:52:10,064 - DEBUG - views.py - index - 44 - this is a debug log
+2018-12-14 22:52:24,380 - ERROR - views.py - index - 41 - this is a error log
+2018-12-14 22:52:24,380 - WARNING - views.py - index - 42 - this is a warning log
+2018-12-14 22:52:24,380 - INFO - views.py - index - 43 - this is a info log
+2018-12-14 22:52:24,381 - DEBUG - views.py - index - 44 - this is a debug log
+2018-12-14 22:52:30,788 - ERROR - views.py - index - 41 - this is a error log
+2018-12-14 22:52:30,788 - WARNING - views.py - index - 42 - this is a warning log
+2018-12-14 22:52:30,788 - INFO - views.py - index - 43 - this is a info log
+2018-12-14 22:52:30,788 - DEBUG - views.py - index - 44 - this is a debug log
+2018-12-14 22:57:28,133 - ERROR - views.py - index - 41 - this is a error log
+2018-12-14 22:57:28,134 - WARNING - views.py - index - 42 - this is a warning log
+2018-12-14 22:57:28,134 - INFO - views.py - index - 43 - this is a info log
+2018-12-14 22:57:28,135 - DEBUG - views.py - index - 44 - this is a debug log
+2018-12-14 22:57:34,026 - ERROR - views.py - index - 41 - this is a error log
+2018-12-14 22:57:34,026 - WARNING - views.py - index - 42 - this is a warning log
+2018-12-14 22:57:34,027 - INFO - views.py - index - 43 - this is a info log
+2018-12-14 22:57:34,027 - DEBUG - views.py - index - 44 - this is a debug log
+2018-12-14 22:57:45,350 - ERROR - views.py - index - 41 - this is a error log
+2018-12-14 22:57:45,351 - WARNING - views.py - index - 42 - this is a warning log
+2018-12-14 22:57:45,351 - INFO - views.py - index - 43 - this is a info log
+2018-12-14 22:57:45,351 - DEBUG - views.py - index - 44 - this is a debug log
+2018-12-14 22:57:46,149 - ERROR - views.py - index - 41 - this is a error log
+2018-12-14 22:57:46,149 - WARNING - views.py - index - 42 - this is a warning log
+2018-12-14 22:57:46,150 - INFO - views.py - index - 43 - this is a info log
+2018-12-14 22:57:46,150 - DEBUG - views.py - index - 44 - this is a debug log
+2018-12-14 23:05:10,652 - ERROR - views.py - index - 41 - this is a error log
+2018-12-14 23:05:10,652 - WARNING - views.py - index - 42 - this is a warning log
+2018-12-14 23:05:10,652 - INFO - views.py - index - 43 - this is a info log
+2018-12-14 23:05:10,652 - DEBUG - views.py - index - 44 - this is a debug log
+2018-12-14 23:05:21,718 - ERROR - views.py - index - 41 - this is a error log
+2018-12-14 23:05:21,718 - WARNING - views.py - index - 42 - this is a warning log
+2018-12-14 23:05:21,718 - INFO - views.py - index - 43 - this is a info log
+2018-12-14 23:05:21,718 - DEBUG - views.py - index - 44 - this is a debug log
+2018-12-14 23:06:44,213 - ERROR - views.py - index - 41 - this is a error log
+2018-12-14 23:06:44,213 - WARNING - views.py - index - 42 - this is a warning log
+2018-12-14 23:06:44,213 - INFO - views.py - index - 43 - this is a info log
+2018-12-14 23:06:44,213 - DEBUG - views.py - index - 44 - this is a debug log
+2018-12-14 23:06:53,578 - ERROR - views.py - page_not_found - 303 - error 404: 404 Not Found: The requested URL was not found on the server.  If you entered the URL manually please check your spelling and try again.
+Traceback (most recent call last):
+  File "/var/www/todolist/venv/lib/python3.6/site-packages/flask/app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/var/www/todolist/venv/lib/python3.6/site-packages/flask/app.py", line 1791, in dispatch_request
+    self.raise_routing_exception(req)
+  File "/var/www/todolist/venv/lib/python3.6/site-packages/flask/app.py", line 1774, in raise_routing_exception
+    raise request.routing_exception
+  File "/var/www/todolist/venv/lib/python3.6/site-packages/flask/ctx.py", line 336, in match_request
+    self.url_adapter.match(return_rule=True)
+  File "/var/www/todolist/venv/lib/python3.6/site-packages/werkzeug/routing.py", line 1581, in match
+    raise NotFound()
+werkzeug.exceptions.NotFound: 404 Not Found: The requested URL was not found on the server.  If you entered the URL manually please check your spelling and try again.
+2018-12-14 23:12:17,352 - ERROR - views.py - index - 41 - this is a error log
+2018-12-14 23:12:17,353 - WARNING - views.py - index - 42 - this is a warning log
+2018-12-14 23:12:17,353 - INFO - views.py - index - 43 - this is a info log
+2018-12-14 23:12:17,353 - DEBUG - views.py - index - 44 - this is a debug log
+2018-12-14 23:12:30,063 - ERROR - views.py - index - 41 - this is a error log
+2018-12-14 23:12:30,063 - WARNING - views.py - index - 42 - this is a warning log
+2018-12-14 23:12:30,063 - INFO - views.py - index - 43 - this is a info log
+2018-12-14 23:12:30,063 - DEBUG - views.py - index - 44 - this is a debug log
+2018-12-14 23:12:55,542 - ERROR - views.py - index - 41 - this is a error log
+2018-12-14 23:12:55,542 - WARNING - views.py - index - 42 - this is a warning log
+2018-12-14 23:12:55,542 - INFO - views.py - index - 43 - this is a info log
+2018-12-14 23:12:55,542 - DEBUG - views.py - index - 44 - this is a debug log
+2018-12-14 23:12:57,670 - ERROR - views.py - index - 41 - this is a error log
+2018-12-14 23:12:57,670 - WARNING - views.py - index - 42 - this is a warning log
+2018-12-14 23:12:57,670 - INFO - views.py - index - 43 - this is a info log
+2018-12-14 23:12:57,670 - DEBUG - views.py - index - 44 - this is a debug log
+2018-12-14 23:13:05,784 - ERROR - views.py - index - 41 - this is a error log
+2018-12-14 23:13:05,784 - WARNING - views.py - index - 42 - this is a warning log
+2018-12-14 23:13:05,784 - INFO - views.py - index - 43 - this is a info log
+2018-12-14 23:13:05,785 - DEBUG - views.py - index - 44 - this is a debug log
+2018-12-14 23:13:59,965 - ERROR - views.py - index - 41 - this is a error log
+2018-12-14 23:13:59,965 - WARNING - views.py - index - 42 - this is a warning log
+2018-12-14 23:13:59,965 - INFO - views.py - index - 43 - this is a info log
+2018-12-14 23:13:59,965 - DEBUG - views.py - index - 44 - this is a debug log
+2018-12-14 23:16:07,568 - ERROR - views.py - index - 41 - this is a error log
+2018-12-14 23:16:07,570 - WARNING - views.py - index - 42 - this is a warning log
+2018-12-14 23:16:07,570 - INFO - views.py - index - 43 - this is a info log
+2018-12-14 23:16:07,570 - DEBUG - views.py - index - 44 - this is a debug log
+2018-12-14 23:19:39,123 - ERROR - views.py - index - 41 - this is a error log
+2018-12-14 23:19:39,124 - WARNING - views.py - index - 42 - this is a warning log
+2018-12-14 23:19:39,124 - INFO - views.py - index - 43 - this is a info log
+2018-12-14 23:19:39,124 - DEBUG - views.py - index - 44 - this is a debug log
+2018-12-14 23:26:59,845 - ERROR - views.py - index - 40 - this is a error log
+2018-12-14 23:26:59,845 - WARNING - views.py - index - 41 - this is a warning log
+2018-12-14 23:26:59,845 - INFO - views.py - index - 42 - this is a info log
+2018-12-14 23:26:59,845 - DEBUG - views.py - index - 43 - this is a debug log
+2018-12-14 23:47:10,911 - ERROR - views.py - index - 40 - this is a error log
+2018-12-14 23:47:10,912 - WARNING - views.py - index - 41 - this is a warning log
+2018-12-14 23:47:10,912 - INFO - views.py - index - 42 - this is a info log
+2018-12-14 23:47:10,912 - DEBUG - views.py - index - 43 - this is a debug log
+2018-12-14 23:47:17,127 - ERROR - views.py - index - 40 - this is a error log
+2018-12-14 23:47:17,127 - WARNING - views.py - index - 41 - this is a warning log
+2018-12-14 23:47:17,127 - INFO - views.py - index - 42 - this is a info log
+2018-12-14 23:47:17,128 - DEBUG - views.py - index - 43 - this is a debug log
+2018-12-14 23:48:10,195 - ERROR - views.py - index - 40 - this is a error log
+2018-12-14 23:48:10,195 - WARNING - views.py - index - 41 - this is a warning log
+2018-12-14 23:48:10,195 - INFO - views.py - index - 42 - this is a info log
+2018-12-14 23:48:10,195 - DEBUG - views.py - index - 43 - this is a debug log
+2018-12-14 23:49:30,644 - ERROR - views.py - index - 40 - this is a error log
+2018-12-14 23:49:30,644 - WARNING - views.py - index - 41 - this is a warning log
+2018-12-14 23:49:30,644 - INFO - views.py - index - 42 - this is a info log
+2018-12-14 23:49:30,644 - DEBUG - views.py - index - 43 - this is a debug log
+2018-12-14 23:50:07,750 - ERROR - views.py - index - 40 - this is a error log
+2018-12-14 23:50:07,750 - WARNING - views.py - index - 41 - this is a warning log
+2018-12-14 23:50:07,750 - INFO - views.py - index - 42 - this is a info log
+2018-12-14 23:50:07,750 - DEBUG - views.py - index - 43 - this is a debug log
+2018-12-14 23:50:41,498 - ERROR - views.py - index - 40 - this is a error log
+2018-12-14 23:50:41,498 - WARNING - views.py - index - 41 - this is a warning log
+2018-12-14 23:50:41,498 - INFO - views.py - index - 42 - this is a info log
+2018-12-14 23:50:41,498 - DEBUG - views.py - index - 43 - this is a debug log
+2018-12-14 23:51:16,251 - ERROR - views.py - index - 40 - this is a error log
+2018-12-14 23:51:16,251 - WARNING - views.py - index - 41 - this is a warning log
+2018-12-14 23:51:16,251 - INFO - views.py - index - 42 - this is a info log
+2018-12-14 23:51:16,251 - DEBUG - views.py - index - 43 - this is a debug log
+2018-12-14 23:54:03,854 - ERROR - views.py - index - 40 - this is a error log
+2018-12-14 23:54:03,854 - WARNING - views.py - index - 41 - this is a warning log
+2018-12-14 23:54:03,855 - INFO - views.py - index - 42 - this is a info log
+2018-12-14 23:54:03,855 - DEBUG - views.py - index - 43 - this is a debug log
+2018-12-14 23:54:41,376 - ERROR - views.py - page_not_found - 304 - error 404: 404 Not Found: The requested URL was not found on the server.  If you entered the URL manually please check your spelling and try again.
+Traceback (most recent call last):
+  File "/var/www/todolist/venv/lib/python3.6/site-packages/flask/app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/var/www/todolist/venv/lib/python3.6/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/var/www/todolist/venv/lib/python3.6/site-packages/flask/helpers.py", line 976, in send_static_file
+    cache_timeout=cache_timeout)
+  File "/var/www/todolist/venv/lib/python3.6/site-packages/flask/helpers.py", line 709, in send_from_directory
+    raise NotFound()
+werkzeug.exceptions.NotFound: 404 Not Found: The requested URL was not found on the server.  If you entered the URL manually please check your spelling and try again.
+2018-12-14 23:54:41,377 - ERROR - views.py - page_not_found - 304 - error 404: 404 Not Found: The requested URL was not found on the server.  If you entered the URL manually please check your spelling and try again.
+Traceback (most recent call last):
+  File "/var/www/todolist/venv/lib/python3.6/site-packages/flask/app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/var/www/todolist/venv/lib/python3.6/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/var/www/todolist/venv/lib/python3.6/site-packages/flask/helpers.py", line 976, in send_static_file
+    cache_timeout=cache_timeout)
+  File "/var/www/todolist/venv/lib/python3.6/site-packages/flask/helpers.py", line 709, in send_from_directory
+    raise NotFound()
+werkzeug.exceptions.NotFound: 404 Not Found: The requested URL was not found on the server.  If you entered the URL manually please check your spelling and try again.
+2018-12-14 23:54:41,382 - ERROR - views.py - page_not_found - 304 - error 404: 404 Not Found: The requested URL was not found on the server.  If you entered the URL manually please check your spelling and try again.
+Traceback (most recent call last):
+  File "/var/www/todolist/venv/lib/python3.6/site-packages/flask/app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/var/www/todolist/venv/lib/python3.6/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/var/www/todolist/venv/lib/python3.6/site-packages/flask/helpers.py", line 976, in send_static_file
+    cache_timeout=cache_timeout)
+  File "/var/www/todolist/venv/lib/python3.6/site-packages/flask/helpers.py", line 709, in send_from_directory
+    raise NotFound()
+werkzeug.exceptions.NotFound: 404 Not Found: The requested URL was not found on the server.  If you entered the URL manually please check your spelling and try again.
+2018-12-14 23:55:58,679 - ERROR - views.py - index - 40 - this is a error log
+2018-12-14 23:55:58,679 - WARNING - views.py - index - 41 - this is a warning log
+2018-12-14 23:55:58,680 - INFO - views.py - index - 42 - this is a info log
+2018-12-14 23:55:58,680 - DEBUG - views.py - index - 43 - this is a debug log
+2018-12-14 23:56:09,004 - ERROR - views.py - index - 40 - this is a error log
+2018-12-14 23:56:09,005 - WARNING - views.py - index - 41 - this is a warning log
+2018-12-14 23:56:09,005 - INFO - views.py - index - 42 - this is a info log
+2018-12-14 23:56:09,005 - DEBUG - views.py - index - 43 - this is a debug log
+2018-12-15 00:04:19,861 - ERROR - views.py - index - 25 - this is a error log
+2018-12-15 00:04:19,861 - WARNING - views.py - index - 26 - this is a warning log
+2018-12-15 00:04:19,861 - INFO - views.py - index - 27 - this is a info log
+2018-12-15 00:04:19,861 - DEBUG - views.py - index - 28 - this is a debug log
+2018-12-15 00:04:29,857 - ERROR - views.py - index - 25 - this is a error log
+2018-12-15 00:04:29,858 - WARNING - views.py - index - 26 - this is a warning log
+2018-12-15 00:04:29,859 - INFO - views.py - index - 27 - this is a info log
+2018-12-15 00:04:29,859 - DEBUG - views.py - index - 28 - this is a debug log
+2018-12-15 00:04:37,317 - ERROR - views.py - index - 25 - this is a error log
+2018-12-15 00:04:37,317 - WARNING - views.py - index - 26 - this is a warning log
+2018-12-15 00:04:37,317 - INFO - views.py - index - 27 - this is a info log
+2018-12-15 00:04:37,318 - DEBUG - views.py - index - 28 - this is a debug log
+2018-12-15 00:04:55,635 - ERROR - views.py - index - 25 - this is a error log
+2018-12-15 00:04:55,635 - WARNING - views.py - index - 26 - this is a warning log
+2018-12-15 00:04:55,635 - INFO - views.py - index - 27 - this is a info log
+2018-12-15 00:04:55,635 - DEBUG - views.py - index - 28 - this is a debug log
+2018-12-15 00:12:15,632 - ERROR - views.py - index - 25 - this is a error log
+2018-12-15 00:12:15,633 - WARNING - views.py - index - 26 - this is a warning log
+2018-12-15 00:12:15,633 - INFO - views.py - index - 27 - this is a info log
+2018-12-15 00:12:15,633 - DEBUG - views.py - index - 28 - this is a debug log
+2018-12-15 00:12:40,760 - ERROR - views.py - index - 25 - this is a error log
+2018-12-15 00:12:40,760 - WARNING - views.py - index - 26 - this is a warning log
+2018-12-15 00:12:40,760 - INFO - views.py - index - 27 - this is a info log
+2018-12-15 00:12:40,760 - DEBUG - views.py - index - 28 - this is a debug log
+2018-12-15 00:17:22,081 - ERROR - views.py - index - 25 - this is a error log
+2018-12-15 00:17:22,081 - WARNING - views.py - index - 26 - this is a warning log
+2018-12-15 00:17:22,082 - INFO - views.py - index - 27 - this is a info log
+2018-12-15 00:17:22,082 - DEBUG - views.py - index - 28 - this is a debug log
+2018-12-15 00:18:03,937 - ERROR - views.py - index - 25 - this is a error log
+2018-12-15 00:18:03,937 - WARNING - views.py - index - 26 - this is a warning log
+2018-12-15 00:18:03,937 - INFO - views.py - index - 27 - this is a info log
+2018-12-15 00:18:03,937 - DEBUG - views.py - index - 28 - this is a debug log
+2018-12-15 00:20:39,935 - ERROR - views.py - index - 25 - this is a error log
+2018-12-15 00:20:39,936 - WARNING - views.py - index - 26 - this is a warning log
+2018-12-15 00:20:39,936 - INFO - views.py - index - 27 - this is a info log
+2018-12-15 00:20:39,936 - DEBUG - views.py - index - 28 - this is a debug log
+2018-12-15 00:20:49,997 - ERROR - views.py - index - 25 - this is a error log
+2018-12-15 00:20:49,997 - WARNING - views.py - index - 26 - this is a warning log
+2018-12-15 00:20:49,997 - INFO - views.py - index - 27 - this is a info log
+2018-12-15 00:20:49,997 - DEBUG - views.py - index - 28 - this is a debug log
+2018-12-15 00:20:58,106 - ERROR - views.py - index - 25 - this is a error log
+2018-12-15 00:20:58,107 - WARNING - views.py - index - 26 - this is a warning log
+2018-12-15 00:20:58,107 - INFO - views.py - index - 27 - this is a info log
+2018-12-15 00:20:58,107 - DEBUG - views.py - index - 28 - this is a debug log
+2018-12-15 00:26:06,882 - ERROR - views.py - index - 25 - this is a error log
+2018-12-15 00:26:06,883 - WARNING - views.py - index - 26 - this is a warning log
+2018-12-15 00:26:06,883 - INFO - views.py - index - 27 - this is a info log
+2018-12-15 00:26:06,883 - DEBUG - views.py - index - 28 - this is a debug log
+2018-12-15 00:26:12,535 - ERROR - views.py - index - 25 - this is a error log
+2018-12-15 00:26:12,536 - WARNING - views.py - index - 26 - this is a warning log
+2018-12-15 00:26:12,536 - INFO - views.py - index - 27 - this is a info log
+2018-12-15 00:26:12,536 - DEBUG - views.py - index - 28 - this is a debug log
+2018-12-15 00:26:19,446 - ERROR - views.py - index - 25 - this is a error log
+2018-12-15 00:26:19,448 - WARNING - views.py - index - 26 - this is a warning log
+2018-12-15 00:26:19,449 - INFO - views.py - index - 27 - this is a info log
+2018-12-15 00:26:19,449 - DEBUG - views.py - index - 28 - this is a debug log
+2018-12-15 00:26:52,000 - ERROR - views.py - index - 25 - this is a error log
+2018-12-15 00:26:52,000 - WARNING - views.py - index - 26 - this is a warning log
+2018-12-15 00:26:52,001 - INFO - views.py - index - 27 - this is a info log
+2018-12-15 00:26:52,001 - DEBUG - views.py - index - 28 - this is a debug log
+2018-12-15 00:27:06,973 - ERROR - views.py - index - 25 - this is a error log
+2018-12-15 00:27:06,973 - WARNING - views.py - index - 26 - this is a warning log
+2018-12-15 00:27:06,973 - INFO - views.py - index - 27 - this is a info log
+2018-12-15 00:27:06,973 - DEBUG - views.py - index - 28 - this is a debug log
+2018-12-15 00:27:07,714 - ERROR - views.py - index - 25 - this is a error log
+2018-12-15 00:27:07,714 - WARNING - views.py - index - 26 - this is a warning log
+2018-12-15 00:27:07,714 - INFO - views.py - index - 27 - this is a info log
+2018-12-15 00:27:07,714 - DEBUG - views.py - index - 28 - this is a debug log
+2018-12-15 00:30:12,983 - ERROR - views.py - index - 25 - this is a error log
+2018-12-15 00:30:12,983 - WARNING - views.py - index - 26 - this is a warning log
+2018-12-15 00:30:12,983 - INFO - views.py - index - 27 - this is a info log
+2018-12-15 00:30:12,983 - DEBUG - views.py - index - 28 - this is a debug log
+2018-12-15 00:30:25,393 - ERROR - views.py - index - 25 - this is a error log
+2018-12-15 00:30:25,393 - WARNING - views.py - index - 26 - this is a warning log
+2018-12-15 00:30:25,393 - INFO - views.py - index - 27 - this is a info log
+2018-12-15 00:30:25,393 - DEBUG - views.py - index - 28 - this is a debug log
+2018-12-15 00:30:36,073 - ERROR - views.py - index - 25 - this is a error log
+2018-12-15 00:30:36,073 - WARNING - views.py - index - 26 - this is a warning log
+2018-12-15 00:30:36,073 - INFO - views.py - index - 27 - this is a info log
+2018-12-15 00:30:36,073 - DEBUG - views.py - index - 28 - this is a debug log
+2018-12-15 00:30:36,937 - ERROR - views.py - index - 25 - this is a error log
+2018-12-15 00:30:36,937 - WARNING - views.py - index - 26 - this is a warning log
+2018-12-15 00:30:36,937 - INFO - views.py - index - 27 - this is a info log
+2018-12-15 00:30:36,937 - DEBUG - views.py - index - 28 - this is a debug log
+2018-12-15 11:19:48,376 - ERROR - views.py - index - 25 - this is a error log
+2018-12-15 11:19:48,423 - WARNING - views.py - index - 26 - this is a warning log
+2018-12-15 11:19:48,423 - INFO - views.py - index - 27 - this is a info log
+2018-12-15 11:19:48,423 - DEBUG - views.py - index - 28 - this is a debug log
+2018-12-15 11:20:31,442 - ERROR - views.py - index - 25 - this is a error log
+2018-12-15 11:20:31,442 - WARNING - views.py - index - 26 - this is a warning log
+2018-12-15 11:20:31,442 - INFO - views.py - index - 27 - this is a info log
+2018-12-15 11:20:31,442 - DEBUG - views.py - index - 28 - this is a debug log
+2018-12-15 12:40:36,778 - ERROR - views.py - page_not_found - 336 - error 404: 404 Not Found: The requested URL was not found on the server.  If you entered the URL manually please check your spelling and try again.
+Traceback (most recent call last):
+  File "/var/www/todolist/venv/lib/python3.6/site-packages/flask/app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/var/www/todolist/venv/lib/python3.6/site-packages/flask/app.py", line 1791, in dispatch_request
+    self.raise_routing_exception(req)
+  File "/var/www/todolist/venv/lib/python3.6/site-packages/flask/app.py", line 1774, in raise_routing_exception
+    raise request.routing_exception
+  File "/var/www/todolist/venv/lib/python3.6/site-packages/flask/ctx.py", line 336, in match_request
+    self.url_adapter.match(return_rule=True)
+  File "/var/www/todolist/venv/lib/python3.6/site-packages/werkzeug/routing.py", line 1581, in match
+    raise NotFound()
+werkzeug.exceptions.NotFound: 404 Not Found: The requested URL was not found on the server.  If you entered the URL manually please check your spelling and try again.
+2018-12-15 12:41:02,348 - ERROR - views.py - page_not_found - 336 - error 404: 404 Not Found: The requested URL was not found on the server.  If you entered the URL manually please check your spelling and try again.
+Traceback (most recent call last):
+  File "/var/www/todolist/venv/lib/python3.6/site-packages/flask/app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/var/www/todolist/venv/lib/python3.6/site-packages/flask/app.py", line 1791, in dispatch_request
+    self.raise_routing_exception(req)
+  File "/var/www/todolist/venv/lib/python3.6/site-packages/flask/app.py", line 1774, in raise_routing_exception
+    raise request.routing_exception
+  File "/var/www/todolist/venv/lib/python3.6/site-packages/flask/ctx.py", line 336, in match_request
+    self.url_adapter.match(return_rule=True)
+  File "/var/www/todolist/venv/lib/python3.6/site-packages/werkzeug/routing.py", line 1581, in match
+    raise NotFound()
+werkzeug.exceptions.NotFound: 404 Not Found: The requested URL was not found on the server.  If you entered the URL manually please check your spelling and try again.
+2018-12-15 12:44:03,055 - ERROR - views.py - index - 25 - this is a error log
+2018-12-15 12:44:03,055 - WARNING - views.py - index - 26 - this is a warning log
+2018-12-15 12:44:03,056 - INFO - views.py - index - 27 - this is a info log
+2018-12-15 12:44:03,056 - DEBUG - views.py - index - 28 - this is a debug log
+2018-12-15 12:44:11,342 - ERROR - views.py - page_not_found - 336 - error 404: 404 Not Found: The requested URL was not found on the server.  If you entered the URL manually please check your spelling and try again.
+Traceback (most recent call last):
+  File "/var/www/todolist/venv/lib/python3.6/site-packages/flask/app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/var/www/todolist/venv/lib/python3.6/site-packages/flask/app.py", line 1791, in dispatch_request
+    self.raise_routing_exception(req)
+  File "/var/www/todolist/venv/lib/python3.6/site-packages/flask/app.py", line 1774, in raise_routing_exception
+    raise request.routing_exception
+  File "/var/www/todolist/venv/lib/python3.6/site-packages/flask/ctx.py", line 336, in match_request
+    self.url_adapter.match(return_rule=True)
+  File "/var/www/todolist/venv/lib/python3.6/site-packages/werkzeug/routing.py", line 1581, in match
+    raise NotFound()
+werkzeug.exceptions.NotFound: 404 Not Found: The requested URL was not found on the server.  If you entered the URL manually please check your spelling and try again.
+2018-12-15 12:44:14,139 - ERROR - views.py - page_not_found - 336 - error 404: 404 Not Found: The requested URL was not found on the server.  If you entered the URL manually please check your spelling and try again.
+Traceback (most recent call last):
+  File "/var/www/todolist/venv/lib/python3.6/site-packages/flask/app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/var/www/todolist/venv/lib/python3.6/site-packages/flask/app.py", line 1791, in dispatch_request
+    self.raise_routing_exception(req)
+  File "/var/www/todolist/venv/lib/python3.6/site-packages/flask/app.py", line 1774, in raise_routing_exception
+    raise request.routing_exception
+  File "/var/www/todolist/venv/lib/python3.6/site-packages/flask/ctx.py", line 336, in match_request
+    self.url_adapter.match(return_rule=True)
+  File "/var/www/todolist/venv/lib/python3.6/site-packages/werkzeug/routing.py", line 1581, in match
+    raise NotFound()
+werkzeug.exceptions.NotFound: 404 Not Found: The requested URL was not found on the server.  If you entered the URL manually please check your spelling and try again.
+2018-12-15 12:44:16,617 - ERROR - views.py - page_not_found - 336 - error 404: 404 Not Found: The requested URL was not found on the server.  If you entered the URL manually please check your spelling and try again.
+Traceback (most recent call last):
+  File "/var/www/todolist/venv/lib/python3.6/site-packages/flask/app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/var/www/todolist/venv/lib/python3.6/site-packages/flask/app.py", line 1791, in dispatch_request
+    self.raise_routing_exception(req)
+  File "/var/www/todolist/venv/lib/python3.6/site-packages/flask/app.py", line 1774, in raise_routing_exception
+    raise request.routing_exception
+  File "/var/www/todolist/venv/lib/python3.6/site-packages/flask/ctx.py", line 336, in match_request
+    self.url_adapter.match(return_rule=True)
+  File "/var/www/todolist/venv/lib/python3.6/site-packages/werkzeug/routing.py", line 1581, in match
+    raise NotFound()
+werkzeug.exceptions.NotFound: 404 Not Found: The requested URL was not found on the server.  If you entered the URL manually please check your spelling and try again.
+2018-12-15 13:59:00,792 - ERROR - views.py - index - 25 - this is a error log
+2018-12-15 13:59:00,793 - WARNING - views.py - index - 26 - this is a warning log
+2018-12-15 13:59:00,793 - INFO - views.py - index - 27 - this is a info log
+2018-12-15 13:59:00,793 - DEBUG - views.py - index - 28 - this is a debug log
+2018-12-15 14:00:09,394 - ERROR - views.py - index - 25 - this is a error log
+2018-12-15 14:00:09,396 - WARNING - views.py - index - 26 - this is a warning log
+2018-12-15 14:00:09,397 - INFO - views.py - index - 27 - this is a info log
+2018-12-15 14:00:09,397 - DEBUG - views.py - index - 28 - this is a debug log
+2018-12-15 14:00:37,986 - ERROR - views.py - index - 25 - this is a error log
+2018-12-15 14:00:37,986 - WARNING - views.py - index - 26 - this is a warning log
+2018-12-15 14:00:37,986 - INFO - views.py - index - 27 - this is a info log
+2018-12-15 14:00:37,986 - DEBUG - views.py - index - 28 - this is a debug log
+2018-12-15 14:01:07,241 - ERROR - views.py - index - 25 - this is a error log
+2018-12-15 14:01:07,241 - WARNING - views.py - index - 26 - this is a warning log
+2018-12-15 14:01:07,242 - INFO - views.py - index - 27 - this is a info log
+2018-12-15 14:01:07,242 - DEBUG - views.py - index - 28 - this is a debug log
+2018-12-15 14:01:36,375 - ERROR - views.py - index - 25 - this is a error log
+2018-12-15 14:01:36,375 - WARNING - views.py - index - 26 - this is a warning log
+2018-12-15 14:01:36,376 - INFO - views.py - index - 27 - this is a info log
+2018-12-15 14:01:36,376 - DEBUG - views.py - index - 28 - this is a debug log
+2018-12-15 14:01:49,043 - ERROR - views.py - index - 25 - this is a error log
+2018-12-15 14:01:49,044 - WARNING - views.py - index - 26 - this is a warning log
+2018-12-15 14:01:49,045 - INFO - views.py - index - 27 - this is a info log
+2018-12-15 14:01:49,045 - DEBUG - views.py - index - 28 - this is a debug log
+2018-12-15 14:02:02,863 - ERROR - views.py - index - 25 - this is a error log
+2018-12-15 14:02:02,864 - WARNING - views.py - index - 26 - this is a warning log
+2018-12-15 14:02:02,864 - INFO - views.py - index - 27 - this is a info log
+2018-12-15 14:02:02,865 - DEBUG - views.py - index - 28 - this is a debug log
+2018-12-15 14:02:32,834 - ERROR - views.py - index - 25 - this is a error log
+2018-12-15 14:02:32,834 - WARNING - views.py - index - 26 - this is a warning log
+2018-12-15 14:02:32,834 - INFO - views.py - index - 27 - this is a info log
+2018-12-15 14:02:32,834 - DEBUG - views.py - index - 28 - this is a debug log
+2018-12-15 14:03:01,464 - ERROR - views.py - index - 25 - this is a error log
+2018-12-15 14:03:01,465 - WARNING - views.py - index - 26 - this is a warning log
+2018-12-15 14:03:01,465 - INFO - views.py - index - 27 - this is a info log
+2018-12-15 14:03:01,465 - DEBUG - views.py - index - 28 - this is a debug log
+2018-12-15 14:19:07,992 - ERROR - views.py - index - 25 - this is a error log
+2018-12-15 14:19:07,992 - WARNING - views.py - index - 26 - this is a warning log
+2018-12-15 14:19:07,992 - INFO - views.py - index - 27 - this is a info log
+2018-12-15 14:19:07,992 - DEBUG - views.py - index - 28 - this is a debug log
+2018-12-15 14:19:08,643 - ERROR - views.py - index - 25 - this is a error log
+2018-12-15 14:19:08,644 - WARNING - views.py - index - 26 - this is a warning log
+2018-12-15 14:19:08,644 - INFO - views.py - index - 27 - this is a info log
+2018-12-15 14:19:08,644 - DEBUG - views.py - index - 28 - this is a debug log
+2018-12-15 14:20:16,655 - ERROR - views.py - index - 25 - this is a error log
+2018-12-15 14:20:16,656 - WARNING - views.py - index - 26 - this is a warning log
+2018-12-15 14:20:16,656 - INFO - views.py - index - 27 - this is a info log
+2018-12-15 14:20:16,656 - DEBUG - views.py - index - 28 - this is a debug log
+2018-12-15 14:22:03,368 - ERROR - views.py - index - 25 - this is a error log
+2018-12-15 14:22:03,368 - WARNING - views.py - index - 26 - this is a warning log
+2018-12-15 14:22:03,368 - INFO - views.py - index - 27 - this is a info log
+2018-12-15 14:22:03,369 - DEBUG - views.py - index - 28 - this is a debug log
+2018-12-15 14:23:55,318 - ERROR - views.py - index - 25 - this is a error log
+2018-12-15 14:23:55,318 - WARNING - views.py - index - 26 - this is a warning log
+2018-12-15 14:23:55,318 - INFO - views.py - index - 27 - this is a info log
+2018-12-15 14:23:55,319 - DEBUG - views.py - index - 28 - this is a debug log
+2018-12-15 14:28:06,994 - ERROR - views.py - index - 25 - this is a error log
+2018-12-15 14:28:06,994 - WARNING - views.py - index - 26 - this is a warning log
+2018-12-15 14:28:06,995 - INFO - views.py - index - 27 - this is a info log
+2018-12-15 14:28:06,995 - DEBUG - views.py - index - 28 - this is a debug log
+2018-12-15 14:28:20,338 - ERROR - views.py - index - 25 - this is a error log
+2018-12-15 14:28:20,339 - WARNING - views.py - index - 26 - this is a warning log
+2018-12-15 14:28:20,339 - INFO - views.py - index - 27 - this is a info log
+2018-12-15 14:28:20,340 - DEBUG - views.py - index - 28 - this is a debug log
+2018-12-15 14:28:45,860 - ERROR - views.py - index - 25 - this is a error log
+2018-12-15 14:28:45,860 - WARNING - views.py - index - 26 - this is a warning log
+2018-12-15 14:28:45,860 - INFO - views.py - index - 27 - this is a info log
+2018-12-15 14:28:45,860 - DEBUG - views.py - index - 28 - this is a debug log
+2018-12-15 14:28:56,330 - ERROR - views.py - index - 25 - this is a error log
+2018-12-15 14:28:56,333 - WARNING - views.py - index - 26 - this is a warning log
+2018-12-15 14:28:56,334 - INFO - views.py - index - 27 - this is a info log
+2018-12-15 14:28:56,334 - DEBUG - views.py - index - 28 - this is a debug log
+2018-12-15 14:29:08,145 - ERROR - views.py - page_not_found - 357 - error 404: 404 Not Found: The requested URL was not found on the server.  If you entered the URL manually please check your spelling and try again.
+Traceback (most recent call last):
+  File "/var/www/todolist/venv/lib/python3.6/site-packages/flask/app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/var/www/todolist/venv/lib/python3.6/site-packages/flask/app.py", line 1791, in dispatch_request
+    self.raise_routing_exception(req)
+  File "/var/www/todolist/venv/lib/python3.6/site-packages/flask/app.py", line 1774, in raise_routing_exception
+    raise request.routing_exception
+  File "/var/www/todolist/venv/lib/python3.6/site-packages/flask/ctx.py", line 336, in match_request
+    self.url_adapter.match(return_rule=True)
+  File "/var/www/todolist/venv/lib/python3.6/site-packages/werkzeug/routing.py", line 1581, in match
+    raise NotFound()
+werkzeug.exceptions.NotFound: 404 Not Found: The requested URL was not found on the server.  If you entered the URL manually please check your spelling and try again.
+2018-12-15 14:29:16,762 - ERROR - views.py - index - 25 - this is a error log
+2018-12-15 14:29:16,763 - WARNING - views.py - index - 26 - this is a warning log
+2018-12-15 14:29:16,763 - INFO - views.py - index - 27 - this is a info log
+2018-12-15 14:29:16,764 - DEBUG - views.py - index - 28 - this is a debug log
+2018-12-15 14:30:37,390 - ERROR - views.py - index - 25 - this is a error log
+2018-12-15 14:30:37,390 - WARNING - views.py - index - 26 - this is a warning log
+2018-12-15 14:30:37,390 - INFO - views.py - index - 27 - this is a info log
+2018-12-15 14:30:37,390 - DEBUG - views.py - index - 28 - this is a debug log
+2018-12-15 14:33:38,538 - ERROR - views.py - index - 25 - this is a error log
+2018-12-15 14:33:38,538 - WARNING - views.py - index - 26 - this is a warning log
+2018-12-15 14:33:38,538 - INFO - views.py - index - 27 - this is a info log
+2018-12-15 14:33:38,538 - DEBUG - views.py - index - 28 - this is a debug log
+2018-12-15 14:34:14,979 - ERROR - views.py - index - 25 - this is a error log
+2018-12-15 14:34:14,979 - WARNING - views.py - index - 26 - this is a warning log
+2018-12-15 14:34:14,980 - INFO - views.py - index - 27 - this is a info log
+2018-12-15 14:34:14,980 - DEBUG - views.py - index - 28 - this is a debug log
+2018-12-15 14:35:44,534 - ERROR - views.py - index - 25 - this is a error log
+2018-12-15 14:35:44,534 - WARNING - views.py - index - 26 - this is a warning log
+2018-12-15 14:35:44,534 - INFO - views.py - index - 27 - this is a info log
+2018-12-15 14:35:44,534 - DEBUG - views.py - index - 28 - this is a debug log
+2018-12-15 14:43:39,890 - ERROR - views.py - index - 25 - this is a error log
+2018-12-15 14:43:39,890 - WARNING - views.py - index - 26 - this is a warning log
+2018-12-15 14:43:39,890 - INFO - views.py - index - 27 - this is a info log
+2018-12-15 14:43:39,891 - DEBUG - views.py - index - 28 - this is a debug log
+2018-12-15 14:44:55,075 - ERROR - views.py - index - 25 - this is a error log
+2018-12-15 14:44:55,076 - WARNING - views.py - index - 26 - this is a warning log
+2018-12-15 14:44:55,076 - INFO - views.py - index - 27 - this is a info log
+2018-12-15 14:44:55,076 - DEBUG - views.py - index - 28 - this is a debug log
+2018-12-15 14:45:57,121 - ERROR - views.py - page_not_found - 370 - error 404: 404 Not Found: The requested URL was not found on the server.  If you entered the URL manually please check your spelling and try again.
+Traceback (most recent call last):
+  File "/var/www/todolist/venv/lib/python3.6/site-packages/flask/app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/var/www/todolist/venv/lib/python3.6/site-packages/flask/app.py", line 1791, in dispatch_request
+    self.raise_routing_exception(req)
+  File "/var/www/todolist/venv/lib/python3.6/site-packages/flask/app.py", line 1774, in raise_routing_exception
+    raise request.routing_exception
+  File "/var/www/todolist/venv/lib/python3.6/site-packages/flask/ctx.py", line 336, in match_request
+    self.url_adapter.match(return_rule=True)
+  File "/var/www/todolist/venv/lib/python3.6/site-packages/werkzeug/routing.py", line 1581, in match
+    raise NotFound()
+werkzeug.exceptions.NotFound: 404 Not Found: The requested URL was not found on the server.  If you entered the URL manually please check your spelling and try again.
+2018-12-15 14:52:17,449 - ERROR - views.py - index - 25 - this is a error log
+2018-12-15 14:52:17,449 - WARNING - views.py - index - 26 - this is a warning log
+2018-12-15 14:52:17,449 - INFO - views.py - index - 27 - this is a info log
+2018-12-15 14:52:17,449 - DEBUG - views.py - index - 28 - this is a debug log
+2018-12-15 14:55:47,445 - ERROR - views.py - index - 25 - this is a error log
+2018-12-15 14:55:47,445 - WARNING - views.py - index - 26 - this is a warning log
+2018-12-15 14:55:47,446 - INFO - views.py - index - 27 - this is a info log
+2018-12-15 14:55:47,446 - DEBUG - views.py - index - 28 - this is a debug log
+2018-12-15 14:55:54,190 - ERROR - views.py - index - 25 - this is a error log
+2018-12-15 14:55:54,191 - WARNING - views.py - index - 26 - this is a warning log
+2018-12-15 14:55:54,191 - INFO - views.py - index - 27 - this is a info log
+2018-12-15 14:55:54,191 - DEBUG - views.py - index - 28 - this is a debug log
+2018-12-15 14:58:18,741 - ERROR - views.py - page_not_found - 382 - error 404: 404 Not Found: The requested URL was not found on the server.  If you entered the URL manually please check your spelling and try again.
+Traceback (most recent call last):
+  File "/var/www/todolist/venv/lib/python3.6/site-packages/flask/app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/var/www/todolist/venv/lib/python3.6/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/var/www/todolist/venv/lib/python3.6/site-packages/flask/helpers.py", line 976, in send_static_file
+    cache_timeout=cache_timeout)
+  File "/var/www/todolist/venv/lib/python3.6/site-packages/flask/helpers.py", line 709, in send_from_directory
+    raise NotFound()
+werkzeug.exceptions.NotFound: 404 Not Found: The requested URL was not found on the server.  If you entered the URL manually please check your spelling and try again.
+2018-12-15 14:58:18,742 - ERROR - views.py - page_not_found - 382 - error 404: 404 Not Found: The requested URL was not found on the server.  If you entered the URL manually please check your spelling and try again.
+Traceback (most recent call last):
+  File "/var/www/todolist/venv/lib/python3.6/site-packages/flask/app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/var/www/todolist/venv/lib/python3.6/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/var/www/todolist/venv/lib/python3.6/site-packages/flask/helpers.py", line 976, in send_static_file
+    cache_timeout=cache_timeout)
+  File "/var/www/todolist/venv/lib/python3.6/site-packages/flask/helpers.py", line 709, in send_from_directory
+    raise NotFound()
+werkzeug.exceptions.NotFound: 404 Not Found: The requested URL was not found on the server.  If you entered the URL manually please check your spelling and try again.
+2018-12-15 15:08:27,897 - ERROR - views.py - index - 25 - this is a error log
+2018-12-15 15:08:27,897 - WARNING - views.py - index - 26 - this is a warning log
+2018-12-15 15:08:27,897 - INFO - views.py - index - 27 - this is a info log
+2018-12-15 15:08:27,897 - DEBUG - views.py - index - 28 - this is a debug log
+2018-12-15 16:23:26,026 - ERROR - views.py - index - 25 - this is a error log
+2018-12-15 16:23:26,026 - WARNING - views.py - index - 26 - this is a warning log
+2018-12-15 16:23:26,026 - INFO - views.py - index - 27 - this is a info log
+2018-12-15 16:23:26,026 - DEBUG - views.py - index - 28 - this is a debug log
+2018-12-15 16:25:10,162 - ERROR - views.py - page_not_found - 405 - error 404: 404 Not Found: The requested URL was not found on the server.  If you entered the URL manually please check your spelling and try again.
+Traceback (most recent call last):
+  File "/var/www/todolist/venv/lib/python3.6/site-packages/flask/app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/var/www/todolist/venv/lib/python3.6/site-packages/flask/app.py", line 1791, in dispatch_request
+    self.raise_routing_exception(req)
+  File "/var/www/todolist/venv/lib/python3.6/site-packages/flask/app.py", line 1774, in raise_routing_exception
+    raise request.routing_exception
+  File "/var/www/todolist/venv/lib/python3.6/site-packages/flask/ctx.py", line 336, in match_request
+    self.url_adapter.match(return_rule=True)
+  File "/var/www/todolist/venv/lib/python3.6/site-packages/werkzeug/routing.py", line 1581, in match
+    raise NotFound()
+werkzeug.exceptions.NotFound: 404 Not Found: The requested URL was not found on the server.  If you entered the URL manually please check your spelling and try again.
+2018-12-15 16:25:13,321 - ERROR - views.py - index - 25 - this is a error log
+2018-12-15 16:25:13,322 - WARNING - views.py - index - 26 - this is a warning log
+2018-12-15 16:25:13,322 - INFO - views.py - index - 27 - this is a info log
+2018-12-15 16:25:13,324 - DEBUG - views.py - index - 28 - this is a debug log
+2018-12-15 16:26:29,420 - ERROR - views.py - index - 25 - this is a error log
+2018-12-15 16:26:29,421 - WARNING - views.py - index - 26 - this is a warning log
+2018-12-15 16:26:29,421 - INFO - views.py - index - 27 - this is a info log
+2018-12-15 16:26:29,421 - DEBUG - views.py - index - 28 - this is a debug log
+2018-12-15 16:27:27,146 - ERROR - views.py - page_not_found - 405 - error 404: 404 Not Found: The requested URL was not found on the server.  If you entered the URL manually please check your spelling and try again.
+Traceback (most recent call last):
+  File "/var/www/todolist/venv/lib/python3.6/site-packages/flask/app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/var/www/todolist/venv/lib/python3.6/site-packages/flask/app.py", line 1791, in dispatch_request
+    self.raise_routing_exception(req)
+  File "/var/www/todolist/venv/lib/python3.6/site-packages/flask/app.py", line 1774, in raise_routing_exception
+    raise request.routing_exception
+  File "/var/www/todolist/venv/lib/python3.6/site-packages/flask/ctx.py", line 336, in match_request
+    self.url_adapter.match(return_rule=True)
+  File "/var/www/todolist/venv/lib/python3.6/site-packages/werkzeug/routing.py", line 1581, in match
+    raise NotFound()
+werkzeug.exceptions.NotFound: 404 Not Found: The requested URL was not found on the server.  If you entered the URL manually please check your spelling and try again.
+2018-12-15 16:47:46,137 - ERROR - views.py - page_not_found - 405 - error 404: 404 Not Found: The requested URL was not found on the server.  If you entered the URL manually please check your spelling and try again.
+Traceback (most recent call last):
+  File "/var/www/todolist/venv/lib/python3.6/site-packages/flask/app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/var/www/todolist/venv/lib/python3.6/site-packages/flask/app.py", line 1791, in dispatch_request
+    self.raise_routing_exception(req)
+  File "/var/www/todolist/venv/lib/python3.6/site-packages/flask/app.py", line 1774, in raise_routing_exception
+    raise request.routing_exception
+  File "/var/www/todolist/venv/lib/python3.6/site-packages/flask/ctx.py", line 336, in match_request
+    self.url_adapter.match(return_rule=True)
+  File "/var/www/todolist/venv/lib/python3.6/site-packages/werkzeug/routing.py", line 1581, in match
+    raise NotFound()
+werkzeug.exceptions.NotFound: 404 Not Found: The requested URL was not found on the server.  If you entered the URL manually please check your spelling and try again.
+2018-12-15 16:51:12,281 - ERROR - views.py - index - 25 - this is a error log
+2018-12-15 16:51:12,281 - WARNING - views.py - index - 26 - this is a warning log
+2018-12-15 16:51:12,281 - INFO - views.py - index - 27 - this is a info log
+2018-12-15 16:51:12,282 - DEBUG - views.py - index - 28 - this is a debug log
+2018-12-15 16:51:23,980 - ERROR - views.py - index - 25 - this is a error log
+2018-12-15 16:51:23,980 - WARNING - views.py - index - 26 - this is a warning log
+2018-12-15 16:51:23,980 - INFO - views.py - index - 27 - this is a info log
+2018-12-15 16:51:23,980 - DEBUG - views.py - index - 28 - this is a debug log
+2018-12-15 16:51:26,653 - ERROR - views.py - index - 25 - this is a error log
+2018-12-15 16:51:26,654 - WARNING - views.py - index - 26 - this is a warning log
+2018-12-15 16:51:26,654 - INFO - views.py - index - 27 - this is a info log
+2018-12-15 16:51:26,654 - DEBUG - views.py - index - 28 - this is a debug log
+2018-12-15 16:54:34,934 - ERROR - views.py - index - 25 - this is a error log
+2018-12-15 16:54:34,934 - WARNING - views.py - index - 26 - this is a warning log
+2018-12-15 16:54:34,934 - INFO - views.py - index - 27 - this is a info log
+2018-12-15 16:54:34,934 - DEBUG - views.py - index - 28 - this is a debug log
+2018-12-15 16:56:03,210 - ERROR - views.py - index - 25 - this is a error log
+2018-12-15 16:56:03,210 - WARNING - views.py - index - 26 - this is a warning log
+2018-12-15 16:56:03,210 - INFO - views.py - index - 27 - this is a info log
+2018-12-15 16:56:03,210 - DEBUG - views.py - index - 28 - this is a debug log
+2018-12-15 16:56:42,248 - ERROR - views.py - index - 25 - this is a error log
+2018-12-15 16:56:42,248 - WARNING - views.py - index - 26 - this is a warning log
+2018-12-15 16:56:42,248 - INFO - views.py - index - 27 - this is a info log
+2018-12-15 16:56:42,248 - DEBUG - views.py - index - 28 - this is a debug log
+2018-12-15 16:59:15,001 - ERROR - views.py - index - 25 - this is a error log
+2018-12-15 16:59:15,001 - WARNING - views.py - index - 26 - this is a warning log
+2018-12-15 16:59:15,001 - INFO - views.py - index - 27 - this is a info log
+2018-12-15 16:59:15,001 - DEBUG - views.py - index - 28 - this is a debug log
+2018-12-15 16:59:27,997 - ERROR - views.py - index - 25 - this is a error log
+2018-12-15 16:59:27,998 - WARNING - views.py - index - 26 - this is a warning log
+2018-12-15 16:59:27,999 - INFO - views.py - index - 27 - this is a info log
+2018-12-15 16:59:27,999 - DEBUG - views.py - index - 28 - this is a debug log
+2018-12-15 17:00:14,089 - ERROR - views.py - index - 25 - this is a error log
+2018-12-15 17:00:14,090 - WARNING - views.py - index - 26 - this is a warning log
+2018-12-15 17:00:14,090 - INFO - views.py - index - 27 - this is a info log
+2018-12-15 17:00:14,090 - DEBUG - views.py - index - 28 - this is a debug log
+2018-12-15 17:13:29,595 - ERROR - views.py - index - 25 - this is a error log
+2018-12-15 17:13:29,595 - WARNING - views.py - index - 26 - this is a warning log
+2018-12-15 17:13:29,595 - INFO - views.py - index - 27 - this is a info log
+2018-12-15 17:13:29,596 - DEBUG - views.py - index - 28 - this is a debug log
+2018-12-15 17:14:50,718 - ERROR - views.py - index - 25 - this is a error log
+2018-12-15 17:14:50,718 - WARNING - views.py - index - 26 - this is a warning log
+2018-12-15 17:14:50,718 - INFO - views.py - index - 27 - this is a info log
+2018-12-15 17:14:50,718 - DEBUG - views.py - index - 28 - this is a debug log
+2018-12-15 18:12:28,810 - ERROR - views.py - index - 25 - this is a error log
+2018-12-15 18:12:28,811 - WARNING - views.py - index - 26 - this is a warning log
+2018-12-15 18:12:28,811 - INFO - views.py - index - 27 - this is a info log
+2018-12-15 18:12:28,811 - DEBUG - views.py - index - 28 - this is a debug log
+2018-12-15 18:12:38,732 - ERROR - views.py - index - 25 - this is a error log
+2018-12-15 18:12:38,732 - WARNING - views.py - index - 26 - this is a warning log
+2018-12-15 18:12:38,732 - INFO - views.py - index - 27 - this is a info log
+2018-12-15 18:12:38,732 - DEBUG - views.py - index - 28 - this is a debug log
+2018-12-15 18:21:00,552 - ERROR - views.py - index - 25 - this is a error log
+2018-12-15 18:21:00,553 - WARNING - views.py - index - 26 - this is a warning log
+2018-12-15 18:21:00,553 - INFO - views.py - index - 27 - this is a info log
+2018-12-15 18:21:00,555 - DEBUG - views.py - index - 28 - this is a debug log
+2018-12-15 18:32:42,053 - ERROR - views.py - index - 25 - this is a error log
+2018-12-15 18:32:42,054 - WARNING - views.py - index - 26 - this is a warning log
+2018-12-15 18:32:42,054 - INFO - views.py - index - 27 - this is a info log
+2018-12-15 18:32:42,054 - DEBUG - views.py - index - 28 - this is a debug log
+2018-12-15 20:40:46,825 - ERROR - views.py - index - 25 - this is a error log
+2018-12-15 20:40:46,826 - WARNING - views.py - index - 26 - this is a warning log
+2018-12-15 20:40:46,826 - INFO - views.py - index - 27 - this is a info log
+2018-12-15 20:40:46,826 - DEBUG - views.py - index - 28 - this is a debug log
+2018-12-15 20:43:53,513 - ERROR - views.py - index - 25 - this is a error log
+2018-12-15 20:43:53,514 - WARNING - views.py - index - 26 - this is a warning log
+2018-12-15 20:43:53,514 - INFO - views.py - index - 27 - this is a info log
+2018-12-15 20:43:53,514 - DEBUG - views.py - index - 28 - this is a debug log
+2018-12-15 20:44:16,310 - ERROR - views.py - index - 25 - this is a error log
+2018-12-15 20:44:16,310 - WARNING - views.py - index - 26 - this is a warning log
+2018-12-15 20:44:16,310 - INFO - views.py - index - 27 - this is a info log
+2018-12-15 20:44:16,310 - DEBUG - views.py - index - 28 - this is a debug log
+2018-12-15 20:56:28,305 - ERROR - views.py - index - 25 - this is a error log
+2018-12-15 20:56:28,307 - WARNING - views.py - index - 26 - this is a warning log
+2018-12-15 20:56:28,308 - INFO - views.py - index - 27 - this is a info log
+2018-12-15 20:56:28,308 - DEBUG - views.py - index - 28 - this is a debug log
+2018-12-15 20:56:31,092 - ERROR - views.py - index - 25 - this is a error log
+2018-12-15 20:56:31,093 - WARNING - views.py - index - 26 - this is a warning log
+2018-12-15 20:56:31,093 - INFO - views.py - index - 27 - this is a info log
+2018-12-15 20:56:31,093 - DEBUG - views.py - index - 28 - this is a debug log
+2018-12-15 20:56:51,542 - ERROR - views.py - index - 25 - this is a error log
+2018-12-15 20:56:51,543 - WARNING - views.py - index - 26 - this is a warning log
+2018-12-15 20:56:51,544 - INFO - views.py - index - 27 - this is a info log
+2018-12-15 20:56:51,544 - DEBUG - views.py - index - 28 - this is a debug log
+2018-12-15 20:57:13,182 - ERROR - views.py - index - 25 - this is a error log
+2018-12-15 20:57:13,182 - WARNING - views.py - index - 26 - this is a warning log
+2018-12-15 20:57:13,182 - INFO - views.py - index - 27 - this is a info log
+2018-12-15 20:57:13,183 - DEBUG - views.py - index - 28 - this is a debug log
+2018-12-15 21:10:05,785 - ERROR - views.py - index - 25 - this is a error log
+2018-12-15 21:10:05,785 - WARNING - views.py - index - 26 - this is a warning log
+2018-12-15 21:10:05,786 - INFO - views.py - index - 27 - this is a info log
+2018-12-15 21:10:05,786 - DEBUG - views.py - index - 28 - this is a debug log
+2018-12-15 21:10:12,208 - ERROR - views.py - index - 25 - this is a error log
+2018-12-15 21:10:12,209 - WARNING - views.py - index - 26 - this is a warning log
+2018-12-15 21:10:12,209 - INFO - views.py - index - 27 - this is a info log
+2018-12-15 21:10:12,209 - DEBUG - views.py - index - 28 - this is a debug log
+2018-12-15 21:13:27,204 - ERROR - views.py - index - 25 - this is a error log
+2018-12-15 21:13:27,205 - WARNING - views.py - index - 26 - this is a warning log
+2018-12-15 21:13:27,206 - INFO - views.py - index - 27 - this is a info log
+2018-12-15 21:13:27,207 - DEBUG - views.py - index - 28 - this is a debug log
+2018-12-15 21:13:56,384 - ERROR - views.py - index - 25 - this is a error log
+2018-12-15 21:13:56,384 - WARNING - views.py - index - 26 - this is a warning log
+2018-12-15 21:13:56,384 - INFO - views.py - index - 27 - this is a info log
+2018-12-15 21:13:56,384 - DEBUG - views.py - index - 28 - this is a debug log
+2018-12-15 21:19:04,398 - ERROR - views.py - index - 25 - this is a error log
+2018-12-15 21:19:04,398 - WARNING - views.py - index - 26 - this is a warning log
+2018-12-15 21:19:04,398 - INFO - views.py - index - 27 - this is a info log
+2018-12-15 21:19:04,398 - DEBUG - views.py - index - 28 - this is a debug log
+2018-12-15 21:35:47,130 - ERROR - views.py - index - 25 - this is a error log
+2018-12-15 21:35:47,130 - WARNING - views.py - index - 26 - this is a warning log
+2018-12-15 21:35:47,130 - INFO - views.py - index - 27 - this is a info log
+2018-12-15 21:35:47,130 - DEBUG - views.py - index - 28 - this is a debug log
+2018-12-15 21:40:04,343 - ERROR - views.py - index - 25 - this is a error log
+2018-12-15 21:40:04,343 - WARNING - views.py - index - 26 - this is a warning log
+2018-12-15 21:40:04,344 - INFO - views.py - index - 27 - this is a info log
+2018-12-15 21:40:04,344 - DEBUG - views.py - index - 28 - this is a debug log
+2018-12-15 21:46:57,979 - ERROR - views.py - index - 25 - this is a error log
+2018-12-15 21:46:57,980 - WARNING - views.py - index - 26 - this is a warning log
+2018-12-15 21:46:57,980 - INFO - views.py - index - 27 - this is a info log
+2018-12-15 21:46:57,980 - DEBUG - views.py - index - 28 - this is a debug log
+2018-12-15 21:56:15,415 - ERROR - views.py - index - 25 - this is a error log
+2018-12-15 21:56:15,416 - WARNING - views.py - index - 26 - this is a warning log
+2018-12-15 21:56:15,416 - INFO - views.py - index - 27 - this is a info log
+2018-12-15 21:56:15,416 - DEBUG - views.py - index - 28 - this is a debug log
+2018-12-15 22:17:33,658 - ERROR - views.py - page_not_found - 460 - error 404: 404 Not Found: The requested URL was not found on the server.  If you entered the URL manually please check your spelling and try again.
+Traceback (most recent call last):
+  File "/var/www/todolist/venv/lib/python3.6/site-packages/flask/app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/var/www/todolist/venv/lib/python3.6/site-packages/flask/app.py", line 1791, in dispatch_request
+    self.raise_routing_exception(req)
+  File "/var/www/todolist/venv/lib/python3.6/site-packages/flask/app.py", line 1774, in raise_routing_exception
+    raise request.routing_exception
+  File "/var/www/todolist/venv/lib/python3.6/site-packages/flask/ctx.py", line 336, in match_request
+    self.url_adapter.match(return_rule=True)
+  File "/var/www/todolist/venv/lib/python3.6/site-packages/werkzeug/routing.py", line 1581, in match
+    raise NotFound()
+werkzeug.exceptions.NotFound: 404 Not Found: The requested URL was not found on the server.  If you entered the URL manually please check your spelling and try again.
+2018-12-15 22:18:22,339 - ERROR - views.py - index - 25 - this is a error log
+2018-12-15 22:18:22,339 - WARNING - views.py - index - 26 - this is a warning log
+2018-12-15 22:18:22,339 - INFO - views.py - index - 27 - this is a info log
+2018-12-15 22:18:22,340 - DEBUG - views.py - index - 28 - this is a debug log
+2018-12-15 22:18:45,178 - ERROR - views.py - page_not_found - 460 - error 404: 404 Not Found: The requested URL was not found on the server.  If you entered the URL manually please check your spelling and try again.
+Traceback (most recent call last):
+  File "/var/www/todolist/venv/lib/python3.6/site-packages/flask/app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/var/www/todolist/venv/lib/python3.6/site-packages/flask/app.py", line 1791, in dispatch_request
+    self.raise_routing_exception(req)
+  File "/var/www/todolist/venv/lib/python3.6/site-packages/flask/app.py", line 1774, in raise_routing_exception
+    raise request.routing_exception
+  File "/var/www/todolist/venv/lib/python3.6/site-packages/flask/ctx.py", line 336, in match_request
+    self.url_adapter.match(return_rule=True)
+  File "/var/www/todolist/venv/lib/python3.6/site-packages/werkzeug/routing.py", line 1581, in match
+    raise NotFound()
+werkzeug.exceptions.NotFound: 404 Not Found: The requested URL was not found on the server.  If you entered the URL manually please check your spelling and try again.
+2018-12-15 22:18:47,345 - ERROR - views.py - index - 25 - this is a error log
+2018-12-15 22:18:47,345 - WARNING - views.py - index - 26 - this is a warning log
+2018-12-15 22:18:47,345 - INFO - views.py - index - 27 - this is a info log
+2018-12-15 22:18:47,345 - DEBUG - views.py - index - 28 - this is a debug log
+2018-12-15 22:20:33,152 - ERROR - views.py - page_not_found - 460 - error 404: 404 Not Found: The requested URL was not found on the server.  If you entered the URL manually please check your spelling and try again.
+Traceback (most recent call last):
+  File "/var/www/todolist/venv/lib/python3.6/site-packages/flask/app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/var/www/todolist/venv/lib/python3.6/site-packages/flask/app.py", line 1791, in dispatch_request
+    self.raise_routing_exception(req)
+  File "/var/www/todolist/venv/lib/python3.6/site-packages/flask/app.py", line 1774, in raise_routing_exception
+    raise request.routing_exception
+  File "/var/www/todolist/venv/lib/python3.6/site-packages/flask/ctx.py", line 336, in match_request
+    self.url_adapter.match(return_rule=True)
+  File "/var/www/todolist/venv/lib/python3.6/site-packages/werkzeug/routing.py", line 1581, in match
+    raise NotFound()
+werkzeug.exceptions.NotFound: 404 Not Found: The requested URL was not found on the server.  If you entered the URL manually please check your spelling and try again.
+2018-12-15 22:20:45,931 - ERROR - views.py - page_not_found - 460 - error 404: 404 Not Found: The requested URL was not found on the server.  If you entered the URL manually please check your spelling and try again.
+Traceback (most recent call last):
+  File "/var/www/todolist/venv/lib/python3.6/site-packages/flask/app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/var/www/todolist/venv/lib/python3.6/site-packages/flask/app.py", line 1791, in dispatch_request
+    self.raise_routing_exception(req)
+  File "/var/www/todolist/venv/lib/python3.6/site-packages/flask/app.py", line 1774, in raise_routing_exception
+    raise request.routing_exception
+  File "/var/www/todolist/venv/lib/python3.6/site-packages/flask/ctx.py", line 336, in match_request
+    self.url_adapter.match(return_rule=True)
+  File "/var/www/todolist/venv/lib/python3.6/site-packages/werkzeug/routing.py", line 1581, in match
+    raise NotFound()
+werkzeug.exceptions.NotFound: 404 Not Found: The requested URL was not found on the server.  If you entered the URL manually please check your spelling and try again.
+2018-12-15 22:20:53,987 - ERROR - views.py - page_not_found - 460 - error 404: 404 Not Found: The requested URL was not found on the server.  If you entered the URL manually please check your spelling and try again.
+Traceback (most recent call last):
+  File "/var/www/todolist/venv/lib/python3.6/site-packages/flask/app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/var/www/todolist/venv/lib/python3.6/site-packages/flask/app.py", line 1791, in dispatch_request
+    self.raise_routing_exception(req)
+  File "/var/www/todolist/venv/lib/python3.6/site-packages/flask/app.py", line 1774, in raise_routing_exception
+    raise request.routing_exception
+  File "/var/www/todolist/venv/lib/python3.6/site-packages/flask/ctx.py", line 336, in match_request
+    self.url_adapter.match(return_rule=True)
+  File "/var/www/todolist/venv/lib/python3.6/site-packages/werkzeug/routing.py", line 1581, in match
+    raise NotFound()
+werkzeug.exceptions.NotFound: 404 Not Found: The requested URL was not found on the server.  If you entered the URL manually please check your spelling and try again.
+2018-12-15 22:20:56,895 - ERROR - views.py - page_not_found - 460 - error 404: 404 Not Found: The requested URL was not found on the server.  If you entered the URL manually please check your spelling and try again.
+Traceback (most recent call last):
+  File "/var/www/todolist/venv/lib/python3.6/site-packages/flask/app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/var/www/todolist/venv/lib/python3.6/site-packages/flask/app.py", line 1791, in dispatch_request
+    self.raise_routing_exception(req)
+  File "/var/www/todolist/venv/lib/python3.6/site-packages/flask/app.py", line 1774, in raise_routing_exception
+    raise request.routing_exception
+  File "/var/www/todolist/venv/lib/python3.6/site-packages/flask/ctx.py", line 336, in match_request
+    self.url_adapter.match(return_rule=True)
+  File "/var/www/todolist/venv/lib/python3.6/site-packages/werkzeug/routing.py", line 1581, in match
+    raise NotFound()
+werkzeug.exceptions.NotFound: 404 Not Found: The requested URL was not found on the server.  If you entered the URL manually please check your spelling and try again.
+2018-12-15 22:21:40,683 - ERROR - views.py - page_not_found - 460 - error 404: 404 Not Found: The requested URL was not found on the server.  If you entered the URL manually please check your spelling and try again.
+Traceback (most recent call last):
+  File "/var/www/todolist/venv/lib/python3.6/site-packages/flask/app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/var/www/todolist/venv/lib/python3.6/site-packages/flask/app.py", line 1791, in dispatch_request
+    self.raise_routing_exception(req)
+  File "/var/www/todolist/venv/lib/python3.6/site-packages/flask/app.py", line 1774, in raise_routing_exception
+    raise request.routing_exception
+  File "/var/www/todolist/venv/lib/python3.6/site-packages/flask/ctx.py", line 336, in match_request
+    self.url_adapter.match(return_rule=True)
+  File "/var/www/todolist/venv/lib/python3.6/site-packages/werkzeug/routing.py", line 1581, in match
+    raise NotFound()
+werkzeug.exceptions.NotFound: 404 Not Found: The requested URL was not found on the server.  If you entered the URL manually please check your spelling and try again.
+2018-12-15 22:21:52,804 - ERROR - views.py - page_not_found - 460 - error 404: 404 Not Found: The requested URL was not found on the server.  If you entered the URL manually please check your spelling and try again.
+Traceback (most recent call last):
+  File "/var/www/todolist/venv/lib/python3.6/site-packages/flask/app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/var/www/todolist/venv/lib/python3.6/site-packages/flask/app.py", line 1791, in dispatch_request
+    self.raise_routing_exception(req)
+  File "/var/www/todolist/venv/lib/python3.6/site-packages/flask/app.py", line 1774, in raise_routing_exception
+    raise request.routing_exception
+  File "/var/www/todolist/venv/lib/python3.6/site-packages/flask/ctx.py", line 336, in match_request
+    self.url_adapter.match(return_rule=True)
+  File "/var/www/todolist/venv/lib/python3.6/site-packages/werkzeug/routing.py", line 1581, in match
+    raise NotFound()
+werkzeug.exceptions.NotFound: 404 Not Found: The requested URL was not found on the server.  If you entered the URL manually please check your spelling and try again.
+2018-12-15 22:28:01,104 - ERROR - views.py - index - 25 - this is a error log
+2018-12-15 22:28:01,105 - WARNING - views.py - index - 26 - this is a warning log
+2018-12-15 22:28:01,105 - INFO - views.py - index - 27 - this is a info log
+2018-12-15 22:28:01,105 - DEBUG - views.py - index - 28 - this is a debug log
+2018-12-15 22:29:50,655 - ERROR - views.py - index - 25 - this is a error log
+2018-12-15 22:29:50,655 - WARNING - views.py - index - 26 - this is a warning log
+2018-12-15 22:29:50,655 - INFO - views.py - index - 27 - this is a info log
+2018-12-15 22:29:50,655 - DEBUG - views.py - index - 28 - this is a debug log
+2018-12-15 22:40:42,494 - ERROR - views.py - index - 25 - this is a error log
+2018-12-15 22:40:42,497 - WARNING - views.py - index - 26 - this is a warning log
+2018-12-15 22:40:42,499 - INFO - views.py - index - 27 - this is a info log
+2018-12-15 22:40:42,500 - DEBUG - views.py - index - 28 - this is a debug log
+2018-12-15 22:40:54,789 - ERROR - views.py - index - 25 - this is a error log
+2018-12-15 22:40:54,789 - WARNING - views.py - index - 26 - this is a warning log
+2018-12-15 22:40:54,789 - INFO - views.py - index - 27 - this is a info log
+2018-12-15 22:40:54,789 - DEBUG - views.py - index - 28 - this is a debug log
+2018-12-15 23:34:03,775 - ERROR - views.py - index - 25 - this is a error log
+2018-12-15 23:34:03,776 - WARNING - views.py - index - 26 - this is a warning log
+2018-12-15 23:34:03,777 - INFO - views.py - index - 27 - this is a info log
+2018-12-15 23:34:03,777 - DEBUG - views.py - index - 28 - this is a debug log
+2018-12-15 23:36:18,322 - ERROR - views.py - index - 25 - this is a error log
+2018-12-15 23:36:18,324 - WARNING - views.py - index - 26 - this is a warning log
+2018-12-15 23:36:18,325 - INFO - views.py - index - 27 - this is a info log
+2018-12-15 23:36:18,325 - DEBUG - views.py - index - 28 - this is a debug log
+2018-12-15 23:36:36,333 - ERROR - views.py - index - 25 - this is a error log
+2018-12-15 23:36:36,334 - WARNING - views.py - index - 26 - this is a warning log
+2018-12-15 23:36:36,334 - INFO - views.py - index - 27 - this is a info log
+2018-12-15 23:36:36,334 - DEBUG - views.py - index - 28 - this is a debug log
+2018-12-15 23:56:55,875 - ERROR - views.py - index - 25 - this is a error log
+2018-12-15 23:56:55,875 - WARNING - views.py - index - 26 - this is a warning log
+2018-12-15 23:56:55,875 - INFO - views.py - index - 27 - this is a info log
+2018-12-15 23:56:55,875 - DEBUG - views.py - index - 28 - this is a debug log
+2018-12-15 23:56:58,316 - ERROR - views.py - page_not_found - 467 - error 404: 404 Not Found: The requested URL was not found on the server.  If you entered the URL manually please check your spelling and try again.
+Traceback (most recent call last):
+  File "/var/www/todolist/venv/lib/python3.6/site-packages/flask/app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/var/www/todolist/venv/lib/python3.6/site-packages/flask/app.py", line 1791, in dispatch_request
+    self.raise_routing_exception(req)
+  File "/var/www/todolist/venv/lib/python3.6/site-packages/flask/app.py", line 1774, in raise_routing_exception
+    raise request.routing_exception
+  File "/var/www/todolist/venv/lib/python3.6/site-packages/flask/ctx.py", line 336, in match_request
+    self.url_adapter.match(return_rule=True)
+  File "/var/www/todolist/venv/lib/python3.6/site-packages/werkzeug/routing.py", line 1581, in match
+    raise NotFound()
+werkzeug.exceptions.NotFound: 404 Not Found: The requested URL was not found on the server.  If you entered the URL manually please check your spelling and try again.
+2018-12-15 23:57:20,973 - ERROR - views.py - page_not_found - 467 - error 404: 404 Not Found: The requested URL was not found on the server.  If you entered the URL manually please check your spelling and try again.
+Traceback (most recent call last):
+  File "/var/www/todolist/venv/lib/python3.6/site-packages/flask/app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/var/www/todolist/venv/lib/python3.6/site-packages/flask/app.py", line 1791, in dispatch_request
+    self.raise_routing_exception(req)
+  File "/var/www/todolist/venv/lib/python3.6/site-packages/flask/app.py", line 1774, in raise_routing_exception
+    raise request.routing_exception
+  File "/var/www/todolist/venv/lib/python3.6/site-packages/flask/ctx.py", line 336, in match_request
+    self.url_adapter.match(return_rule=True)
+  File "/var/www/todolist/venv/lib/python3.6/site-packages/werkzeug/routing.py", line 1581, in match
+    raise NotFound()
+werkzeug.exceptions.NotFound: 404 Not Found: The requested URL was not found on the server.  If you entered the URL manually please check your spelling and try again.
+2018-12-15 23:58:30,572 - ERROR - views.py - page_not_found - 469 - error 404: 404 Not Found: The requested URL was not found on the server.  If you entered the URL manually please check your spelling and try again.
+Traceback (most recent call last):
+  File "/var/www/todolist/venv/lib/python3.6/site-packages/flask/app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/var/www/todolist/venv/lib/python3.6/site-packages/flask/app.py", line 1791, in dispatch_request
+    self.raise_routing_exception(req)
+  File "/var/www/todolist/venv/lib/python3.6/site-packages/flask/app.py", line 1774, in raise_routing_exception
+    raise request.routing_exception
+  File "/var/www/todolist/venv/lib/python3.6/site-packages/flask/ctx.py", line 336, in match_request
+    self.url_adapter.match(return_rule=True)
+  File "/var/www/todolist/venv/lib/python3.6/site-packages/werkzeug/routing.py", line 1581, in match
+    raise NotFound()
+werkzeug.exceptions.NotFound: 404 Not Found: The requested URL was not found on the server.  If you entered the URL manually please check your spelling and try again.
+2018-12-15 23:58:31,476 - ERROR - views.py - index - 25 - this is a error log
+2018-12-15 23:58:31,477 - WARNING - views.py - index - 26 - this is a warning log
+2018-12-15 23:58:31,477 - INFO - views.py - index - 27 - this is a info log
+2018-12-15 23:58:31,477 - DEBUG - views.py - index - 28 - this is a debug log
+2018-12-15 23:58:33,065 - ERROR - views.py - page_not_found - 469 - error 404: 404 Not Found: The requested URL was not found on the server.  If you entered the URL manually please check your spelling and try again.
+Traceback (most recent call last):
+  File "/var/www/todolist/venv/lib/python3.6/site-packages/flask/app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/var/www/todolist/venv/lib/python3.6/site-packages/flask/app.py", line 1791, in dispatch_request
+    self.raise_routing_exception(req)
+  File "/var/www/todolist/venv/lib/python3.6/site-packages/flask/app.py", line 1774, in raise_routing_exception
+    raise request.routing_exception
+  File "/var/www/todolist/venv/lib/python3.6/site-packages/flask/ctx.py", line 336, in match_request
+    self.url_adapter.match(return_rule=True)
+  File "/var/www/todolist/venv/lib/python3.6/site-packages/werkzeug/routing.py", line 1581, in match
+    raise NotFound()
+werkzeug.exceptions.NotFound: 404 Not Found: The requested URL was not found on the server.  If you entered the URL manually please check your spelling and try again.
+2018-12-15 23:58:34,602 - ERROR - views.py - index - 25 - this is a error log
+2018-12-15 23:58:34,602 - WARNING - views.py - index - 26 - this is a warning log
+2018-12-15 23:58:34,602 - INFO - views.py - index - 27 - this is a info log
+2018-12-15 23:58:34,602 - DEBUG - views.py - index - 28 - this is a debug log
+2018-12-15 23:58:40,796 - ERROR - views.py - index - 25 - this is a error log
+2018-12-15 23:58:40,797 - WARNING - views.py - index - 26 - this is a warning log
+2018-12-15 23:58:40,797 - INFO - views.py - index - 27 - this is a info log
+2018-12-15 23:58:40,797 - DEBUG - views.py - index - 28 - this is a debug log
+2018-12-15 23:58:42,052 - ERROR - views.py - page_not_found - 469 - error 404: 404 Not Found: The requested URL was not found on the server.  If you entered the URL manually please check your spelling and try again.
+Traceback (most recent call last):
+  File "/var/www/todolist/venv/lib/python3.6/site-packages/flask/app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/var/www/todolist/venv/lib/python3.6/site-packages/flask/app.py", line 1791, in dispatch_request
+    self.raise_routing_exception(req)
+  File "/var/www/todolist/venv/lib/python3.6/site-packages/flask/app.py", line 1774, in raise_routing_exception
+    raise request.routing_exception
+  File "/var/www/todolist/venv/lib/python3.6/site-packages/flask/ctx.py", line 336, in match_request
+    self.url_adapter.match(return_rule=True)
+  File "/var/www/todolist/venv/lib/python3.6/site-packages/werkzeug/routing.py", line 1581, in match
+    raise NotFound()
+werkzeug.exceptions.NotFound: 404 Not Found: The requested URL was not found on the server.  If you entered the URL manually please check your spelling and try again.
+2018-12-15 23:58:44,588 - ERROR - views.py - index - 25 - this is a error log
+2018-12-15 23:58:44,588 - WARNING - views.py - index - 26 - this is a warning log
+2018-12-15 23:58:44,589 - INFO - views.py - index - 27 - this is a info log
+2018-12-15 23:58:44,589 - DEBUG - views.py - index - 28 - this is a debug log
+2018-12-15 23:59:03,798 - ERROR - views.py - index - 25 - this is a error log
+2018-12-15 23:59:03,799 - WARNING - views.py - index - 26 - this is a warning log
+2018-12-15 23:59:03,799 - INFO - views.py - index - 27 - this is a info log
+2018-12-15 23:59:03,799 - DEBUG - views.py - index - 28 - this is a debug log
+2018-12-16 00:02:46,540 - ERROR - views.py - index - 25 - this is a error log
+2018-12-16 00:02:46,540 - WARNING - views.py - index - 26 - this is a warning log
+2018-12-16 00:02:46,540 - INFO - views.py - index - 27 - this is a info log
+2018-12-16 00:02:46,540 - DEBUG - views.py - index - 28 - this is a debug log
+2018-12-16 00:35:11,779 - ERROR - views.py - index - 25 - this is a error log
+2018-12-16 00:35:11,779 - WARNING - views.py - index - 26 - this is a warning log
+2018-12-16 00:35:11,779 - INFO - views.py - index - 27 - this is a info log
+2018-12-16 00:35:11,780 - DEBUG - views.py - index - 28 - this is a debug log
+2018-12-16 00:38:09,318 - ERROR - views.py - index - 25 - this is a error log
+2018-12-16 00:38:09,318 - WARNING - views.py - index - 26 - this is a warning log
+2018-12-16 00:38:09,318 - INFO - views.py - index - 27 - this is a info log
+2018-12-16 00:38:09,319 - DEBUG - views.py - index - 28 - this is a debug log
+2018-12-16 01:48:45,885 - ERROR - views.py - page_not_found - 487 - error 404: 404 Not Found: The requested URL was not found on the server.  If you entered the URL manually please check your spelling and try again.
+Traceback (most recent call last):
+  File "/var/www/todolist/venv/lib/python3.6/site-packages/flask/app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/var/www/todolist/venv/lib/python3.6/site-packages/flask/app.py", line 1791, in dispatch_request
+    self.raise_routing_exception(req)
+  File "/var/www/todolist/venv/lib/python3.6/site-packages/flask/app.py", line 1774, in raise_routing_exception
+    raise request.routing_exception
+  File "/var/www/todolist/venv/lib/python3.6/site-packages/flask/ctx.py", line 336, in match_request
+    self.url_adapter.match(return_rule=True)
+  File "/var/www/todolist/venv/lib/python3.6/site-packages/werkzeug/routing.py", line 1581, in match
+    raise NotFound()
+werkzeug.exceptions.NotFound: 404 Not Found: The requested URL was not found on the server.  If you entered the URL manually please check your spelling and try again.
+2018-12-16 02:04:10,374 - ERROR - views.py - index - 25 - this is a error log
+2018-12-16 02:04:10,374 - WARNING - views.py - index - 26 - this is a warning log
+2018-12-16 02:04:10,374 - INFO - views.py - index - 27 - this is a info log
+2018-12-16 02:04:10,374 - DEBUG - views.py - index - 28 - this is a debug log
+2018-12-16 02:04:14,268 - ERROR - views.py - page_not_found - 499 - error 404: 404 Not Found: The requested URL was not found on the server.  If you entered the URL manually please check your spelling and try again.
+Traceback (most recent call last):
+  File "/var/www/todolist/venv/lib/python3.6/site-packages/flask/app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/var/www/todolist/venv/lib/python3.6/site-packages/flask/app.py", line 1791, in dispatch_request
+    self.raise_routing_exception(req)
+  File "/var/www/todolist/venv/lib/python3.6/site-packages/flask/app.py", line 1774, in raise_routing_exception
+    raise request.routing_exception
+  File "/var/www/todolist/venv/lib/python3.6/site-packages/flask/ctx.py", line 336, in match_request
+    self.url_adapter.match(return_rule=True)
+  File "/var/www/todolist/venv/lib/python3.6/site-packages/werkzeug/routing.py", line 1581, in match
+    raise NotFound()
+werkzeug.exceptions.NotFound: 404 Not Found: The requested URL was not found on the server.  If you entered the URL manually please check your spelling and try again.
+2018-12-16 02:04:16,214 - ERROR - views.py - index - 25 - this is a error log
+2018-12-16 02:04:16,214 - WARNING - views.py - index - 26 - this is a warning log
+2018-12-16 02:04:16,214 - INFO - views.py - index - 27 - this is a info log
+2018-12-16 02:04:16,214 - DEBUG - views.py - index - 28 - this is a debug log
+2018-12-16 02:04:17,917 - ERROR - views.py - page_not_found - 499 - error 404: 404 Not Found: The requested URL was not found on the server.  If you entered the URL manually please check your spelling and try again.
+Traceback (most recent call last):
+  File "/var/www/todolist/venv/lib/python3.6/site-packages/flask/app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/var/www/todolist/venv/lib/python3.6/site-packages/flask/app.py", line 1791, in dispatch_request
+    self.raise_routing_exception(req)
+  File "/var/www/todolist/venv/lib/python3.6/site-packages/flask/app.py", line 1774, in raise_routing_exception
+    raise request.routing_exception
+  File "/var/www/todolist/venv/lib/python3.6/site-packages/flask/ctx.py", line 336, in match_request
+    self.url_adapter.match(return_rule=True)
+  File "/var/www/todolist/venv/lib/python3.6/site-packages/werkzeug/routing.py", line 1581, in match
+    raise NotFound()
+werkzeug.exceptions.NotFound: 404 Not Found: The requested URL was not found on the server.  If you entered the URL manually please check your spelling and try again.
+2018-12-16 02:04:19,531 - ERROR - views.py - index - 25 - this is a error log
+2018-12-16 02:04:19,531 - WARNING - views.py - index - 26 - this is a warning log
+2018-12-16 02:04:19,531 - INFO - views.py - index - 27 - this is a info log
+2018-12-16 02:04:19,531 - DEBUG - views.py - index - 28 - this is a debug log
+2018-12-16 02:04:21,516 - ERROR - views.py - page_not_found - 499 - error 404: 404 Not Found: The requested URL was not found on the server.  If you entered the URL manually please check your spelling and try again.
+Traceback (most recent call last):
+  File "/var/www/todolist/venv/lib/python3.6/site-packages/flask/app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/var/www/todolist/venv/lib/python3.6/site-packages/flask/app.py", line 1791, in dispatch_request
+    self.raise_routing_exception(req)
+  File "/var/www/todolist/venv/lib/python3.6/site-packages/flask/app.py", line 1774, in raise_routing_exception
+    raise request.routing_exception
+  File "/var/www/todolist/venv/lib/python3.6/site-packages/flask/ctx.py", line 336, in match_request
+    self.url_adapter.match(return_rule=True)
+  File "/var/www/todolist/venv/lib/python3.6/site-packages/werkzeug/routing.py", line 1581, in match
+    raise NotFound()
+werkzeug.exceptions.NotFound: 404 Not Found: The requested URL was not found on the server.  If you entered the URL manually please check your spelling and try again.
+2018-12-16 02:04:23,448 - ERROR - views.py - index - 25 - this is a error log
+2018-12-16 02:04:23,449 - WARNING - views.py - index - 26 - this is a warning log
+2018-12-16 02:04:23,449 - INFO - views.py - index - 27 - this is a info log
+2018-12-16 02:04:23,450 - DEBUG - views.py - index - 28 - this is a debug log
+2018-12-16 02:04:27,586 - ERROR - views.py - page_not_found - 499 - error 404: 404 Not Found: The requested URL was not found on the server.  If you entered the URL manually please check your spelling and try again.
+Traceback (most recent call last):
+  File "/var/www/todolist/venv/lib/python3.6/site-packages/flask/app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/var/www/todolist/venv/lib/python3.6/site-packages/flask/app.py", line 1791, in dispatch_request
+    self.raise_routing_exception(req)
+  File "/var/www/todolist/venv/lib/python3.6/site-packages/flask/app.py", line 1774, in raise_routing_exception
+    raise request.routing_exception
+  File "/var/www/todolist/venv/lib/python3.6/site-packages/flask/ctx.py", line 336, in match_request
+    self.url_adapter.match(return_rule=True)
+  File "/var/www/todolist/venv/lib/python3.6/site-packages/werkzeug/routing.py", line 1581, in match
+    raise NotFound()
+werkzeug.exceptions.NotFound: 404 Not Found: The requested URL was not found on the server.  If you entered the URL manually please check your spelling and try again.
+2018-12-16 02:04:28,857 - ERROR - views.py - index - 25 - this is a error log
+2018-12-16 02:04:28,857 - WARNING - views.py - index - 26 - this is a warning log
+2018-12-16 02:04:28,857 - INFO - views.py - index - 27 - this is a info log
+2018-12-16 02:04:28,857 - DEBUG - views.py - index - 28 - this is a debug log
+2018-12-16 02:04:35,098 - ERROR - views.py - index - 25 - this is a error log
+2018-12-16 02:04:35,099 - WARNING - views.py - index - 26 - this is a warning log
+2018-12-16 02:04:35,099 - INFO - views.py - index - 27 - this is a info log
+2018-12-16 02:04:35,099 - DEBUG - views.py - index - 28 - this is a debug log
+2018-12-16 02:04:40,473 - ERROR - views.py - index - 25 - this is a error log
+2018-12-16 02:04:40,474 - WARNING - views.py - index - 26 - this is a warning log
+2018-12-16 02:04:40,474 - INFO - views.py - index - 27 - this is a info log
+2018-12-16 02:04:40,474 - DEBUG - views.py - index - 28 - this is a debug log

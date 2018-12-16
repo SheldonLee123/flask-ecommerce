@@ -1,0 +1,38 @@
+{% extends 'layout.html' %}
+
+{% block body %}
+<!-- checkout -->
+<div class="content inside-page payment">
+  <h2 class="title">Payment Information</h2>
+  <div class="breadcrumb"><a href="index.html">Home</a> / Payment Information</div>
+  <form method="POST" action="">
+    {% from "includes/_formhelpers.html" import render_field %}
+    <fieldset>
+
+      <div class="form-horizontal  content-center">
+
+        {{ form.hidden_tag() }}
+        {% for field in form %}
+        <div class="form-group">
+          <div class="col-sm-7">
+            {{ render_field(field, class="form-control") }}
+          </div>
+        </div>
+        {% endfor %}
+
+        <div class="form-group terms-condition-agree">
+          <div class="col-sm-7">
+            <label class="radio-inline">
+              <input type="checkbox" name="inlineRadioOptions" id="inlineRadioOptions" onclick="agree_terms()">  I agree <a href="#">Terms & Conditions</a>
+            </label>
+          </div>
+        </div>
+
+        <div class="col-sm-8 col-sm-offset-4"><input type="submit" class="btn btn-primary pull-left" value="Compelete" id="complete" disabled="disabled"></div>
+
+      </div>
+
+    </fieldset>
+  </form>
+</div>
+{% endblock %}
