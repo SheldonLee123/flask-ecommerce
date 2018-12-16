@@ -14,4 +14,5 @@ sudo rm /etc/nginx/sites-enabled/default
 sudo ln -s /var/www/ecommerce/ecommerce_nginx.conf /etc/nginx/conf.d/  
 sudo /etc/init.d/nginx start  
 nohup uwsgi --ini /var/www/ecommerce/ecommerce_uwsgi.ini &  
+pkill -f uwsgi -9  
 
