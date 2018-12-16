@@ -1208,3 +1208,61 @@ werkzeug.exceptions.NotFound: 404 Not Found: The requested URL was not found on 
 2018-12-16 17:04:34,785 - WARNING - views.py - index - 26 - this is a warning log
 2018-12-16 17:04:34,785 - INFO - views.py - index - 27 - this is a info log
 2018-12-16 17:04:34,785 - DEBUG - views.py - index - 28 - this is a debug log
+2018-12-17 00:57:27,601 - ERROR - views.py - index - 25 - this is a error log
+2018-12-17 00:57:27,631 - WARNING - views.py - index - 26 - this is a warning log
+2018-12-17 00:57:27,631 - INFO - views.py - index - 27 - this is a info log
+2018-12-17 00:57:27,631 - DEBUG - views.py - index - 28 - this is a debug log
+2018-12-17 00:57:28,395 - ERROR - views.py - index - 25 - this is a error log
+2018-12-17 00:57:28,395 - WARNING - views.py - index - 26 - this is a warning log
+2018-12-17 00:57:28,395 - INFO - views.py - index - 27 - this is a info log
+2018-12-17 00:57:28,396 - DEBUG - views.py - index - 28 - this is a debug log
+2018-12-17 01:09:24,112 - ERROR - views.py - page_not_found - 500 - error 404: 404 Not Found: The requested URL was not found on the server.  If you entered the URL manually please check your spelling and try again.
+Traceback (most recent call last):
+  File "/home/sheldon/Documents/Project/flask/Flask-Sqlite3-ecommerce/venv/lib/python3.6/site-packages/flask/app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/sheldon/Documents/Project/flask/Flask-Sqlite3-ecommerce/venv/lib/python3.6/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/sheldon/Documents/Project/flask/Flask-Sqlite3-ecommerce/venv/lib/python3.6/site-packages/flask/helpers.py", line 976, in send_static_file
+    cache_timeout=cache_timeout)
+  File "/home/sheldon/Documents/Project/flask/Flask-Sqlite3-ecommerce/venv/lib/python3.6/site-packages/flask/helpers.py", line 709, in send_from_directory
+    raise NotFound()
+werkzeug.exceptions.NotFound: 404 Not Found: The requested URL was not found on the server.  If you entered the URL manually please check your spelling and try again.
+2018-12-17 01:09:27,268 - ERROR - views.py - page_not_found - 500 - error 404: 404 Not Found: The requested URL was not found on the server.  If you entered the URL manually please check your spelling and try again.
+Traceback (most recent call last):
+  File "/home/sheldon/Documents/Project/flask/Flask-Sqlite3-ecommerce/venv/lib/python3.6/site-packages/flask/app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/sheldon/Documents/Project/flask/Flask-Sqlite3-ecommerce/venv/lib/python3.6/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/sheldon/Documents/Project/flask/Flask-Sqlite3-ecommerce/venv/lib/python3.6/site-packages/flask/helpers.py", line 976, in send_static_file
+    cache_timeout=cache_timeout)
+  File "/home/sheldon/Documents/Project/flask/Flask-Sqlite3-ecommerce/venv/lib/python3.6/site-packages/flask/helpers.py", line 709, in send_from_directory
+    raise NotFound()
+werkzeug.exceptions.NotFound: 404 Not Found: The requested URL was not found on the server.  If you entered the URL manually please check your spelling and try again.
+2018-12-17 01:10:25,674 - ERROR - views.py - page_not_found - 500 - error 404: 404 Not Found: The requested URL was not found on the server.  If you entered the URL manually please check your spelling and try again.
+Traceback (most recent call last):
+  File "/home/sheldon/Documents/Project/flask/Flask-Sqlite3-ecommerce/venv/lib/python3.6/site-packages/flask/app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/sheldon/Documents/Project/flask/Flask-Sqlite3-ecommerce/venv/lib/python3.6/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/sheldon/Documents/Project/flask/Flask-Sqlite3-ecommerce/venv/lib/python3.6/site-packages/flask/helpers.py", line 976, in send_static_file
+    cache_timeout=cache_timeout)
+  File "/home/sheldon/Documents/Project/flask/Flask-Sqlite3-ecommerce/venv/lib/python3.6/site-packages/flask/helpers.py", line 709, in send_from_directory
+    raise NotFound()
+werkzeug.exceptions.NotFound: 404 Not Found: The requested URL was not found on the server.  If you entered the URL manually please check your spelling and try again.
+2018-12-17 01:20:26,316 - ERROR - views.py - page_not_found - 500 - error 404: 404 Not Found: The requested URL was not found on the server.  If you entered the URL manually please check your spelling and try again.
+Traceback (most recent call last):
+  File "/home/sheldon/Documents/Project/flask/Flask-Sqlite3-ecommerce/venv/lib/python3.6/site-packages/flask/app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/sheldon/Documents/Project/flask/Flask-Sqlite3-ecommerce/venv/lib/python3.6/site-packages/flask/app.py", line 1791, in dispatch_request
+    self.raise_routing_exception(req)
+  File "/home/sheldon/Documents/Project/flask/Flask-Sqlite3-ecommerce/venv/lib/python3.6/site-packages/flask/app.py", line 1774, in raise_routing_exception
+    raise request.routing_exception
+  File "/home/sheldon/Documents/Project/flask/Flask-Sqlite3-ecommerce/venv/lib/python3.6/site-packages/flask/ctx.py", line 336, in match_request
+    self.url_adapter.match(return_rule=True)
+  File "/home/sheldon/Documents/Project/flask/Flask-Sqlite3-ecommerce/venv/lib/python3.6/site-packages/werkzeug/routing.py", line 1581, in match
+    raise NotFound()
+werkzeug.exceptions.NotFound: 404 Not Found: The requested URL was not found on the server.  If you entered the URL manually please check your spelling and try again.
+2018-12-17 02:33:43,947 - ERROR - views.py - index - 25 - this is a error log
+2018-12-17 02:33:43,947 - WARNING - views.py - index - 26 - this is a warning log
+2018-12-17 02:33:43,947 - INFO - views.py - index - 27 - this is a info log
+2018-12-17 02:33:43,947 - DEBUG - views.py - index - 28 - this is a debug log

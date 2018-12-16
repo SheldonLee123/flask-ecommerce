@@ -419,6 +419,12 @@ def edit_cart(product_id):
 def add_product():
     form = AddProductForm(request.form)
     if request.method == 'POST' and form.validate():
+        max_product = Product.query.order_by("-id").first()
+        #set the only id for the product img
+        if max_product == None:
+            max_id = 1
+        else:
+            max_id = max_product.id+1
         category = request.form.getlist('category')
         name = form.name.data
         user_id = session['id']
@@ -427,11 +433,15 @@ def add_product():
         actual_price = form.actual_price.data
         #save the image to local path
         f = request.files['image']
+        filename = secure_filename(f.filename)
+        # get the file type of the upload image
+        filetype = '.' + filename.split('.')[1]
+        filename = str(max_id) + filetype
         basepath = os.path.dirname(__file__)  # current file path
         upload_path = os.path.join(
-            basepath, 'static/images/photos/' + category[0], secure_filename(f.filename))
+            basepath, 'static/images/photos/' + category[0], filename)
         f.save(upload_path)
-        image = category[0] + '/' + f.filename
+        image = category[0] + '/' + filename
         product = Product(user_id=user_id, name=name, description=description, image=image, origin_price=origin_price, actual_price=actual_price)
         for item in category:
             categories = Category.query.filter_by(name=item).first()

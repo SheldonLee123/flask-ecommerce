@@ -16,3 +16,8 @@ sudo /etc/init.d/nginx start
 nohup uwsgi --ini /var/www/ecommerce/ecommerce_uwsgi.ini &  
 pkill -f uwsgi -9  
 
+#unittest
+source venv/bin/activate  
+cd test/
+python test_basic.py
+

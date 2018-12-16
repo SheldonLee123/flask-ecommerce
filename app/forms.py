@@ -53,7 +53,7 @@ class EditUserForm(Form):
 class AddProductForm(Form):
     name = StringField('Product Name', [validators.Length(min=1, max=100)])
     description = StringField('Description', [validators.Length(min=0)])
-    category = SelectMultipleField('Category', coerce=str, choices=[("Men", "Men"), ("Women", "Women"), ('Gifts', 'Gifts')])
+    category = SelectMultipleField('Category', [validators.DataRequired()], coerce=str, choices=[("Men", "Men"), ("Women", "Women"), ('Gifts', 'Gifts')])
     origin_price = FloatField('Origin Price', [validators.DataRequired()])
     actual_price = FloatField('Actual Price', [validators.DataRequired()])
 
