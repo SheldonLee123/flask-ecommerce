@@ -1,5 +1,7 @@
 #activate virtual environment  
+virtualenv venv  
 source venv/bin/activate  
+pip install -r requirments.txt  
 
 #create database  
 python db_create.py  
