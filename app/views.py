@@ -227,8 +227,9 @@ def login():
                     response.set_cookie('password',password_candidate, expires=outdate)
                     return response
                 session['count'] = Cart.query.filter_by(
-                    user_id=User.id).count()
+                    user_id=user.id).count()
                 products = Cart.query.filter_by(user_id=User.id).all()
+                print(session['count'])
                 if session['count'] != 0:
                     session['is_cart_notempty'] = True
                     session['product_name'] = products[0].product.name
