@@ -1266,3 +1266,508 @@ werkzeug.exceptions.NotFound: 404 Not Found: The requested URL was not found on 
 2018-12-17 02:33:43,947 - WARNING - views.py - index - 26 - this is a warning log
 2018-12-17 02:33:43,947 - INFO - views.py - index - 27 - this is a info log
 2018-12-17 02:33:43,947 - DEBUG - views.py - index - 28 - this is a debug log
+2018-12-17 14:06:25,915 - ERROR - views.py - index - 25 - this is a error log
+2018-12-17 14:06:25,954 - WARNING - views.py - index - 26 - this is a warning log
+2018-12-17 14:06:25,954 - INFO - views.py - index - 27 - this is a info log
+2018-12-17 14:06:25,954 - DEBUG - views.py - index - 28 - this is a debug log
+2018-12-17 14:06:27,369 - ERROR - views.py - index - 25 - this is a error log
+2018-12-17 14:06:27,369 - WARNING - views.py - index - 26 - this is a warning log
+2018-12-17 14:06:27,369 - INFO - views.py - index - 27 - this is a info log
+2018-12-17 14:06:27,369 - DEBUG - views.py - index - 28 - this is a debug log
+2018-12-17 14:09:15,932 - ERROR - views.py - index - 25 - this is a error log
+2018-12-17 14:09:15,932 - WARNING - views.py - index - 26 - this is a warning log
+2018-12-17 14:09:15,932 - INFO - views.py - index - 27 - this is a info log
+2018-12-17 14:09:15,932 - DEBUG - views.py - index - 28 - this is a debug log
+2018-12-17 14:33:52,370 - ERROR - views.py - page_not_found - 510 - error 404: 404 Not Found: The requested URL was not found on the server.  If you entered the URL manually please check your spelling and try again.
+Traceback (most recent call last):
+  File "/home/sheldon/Documents/Project/flask/Flask-Sqlite3-ecommerce/venv/lib/python3.6/site-packages/flask/app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/sheldon/Documents/Project/flask/Flask-Sqlite3-ecommerce/venv/lib/python3.6/site-packages/flask/app.py", line 1791, in dispatch_request
+    self.raise_routing_exception(req)
+  File "/home/sheldon/Documents/Project/flask/Flask-Sqlite3-ecommerce/venv/lib/python3.6/site-packages/flask/app.py", line 1774, in raise_routing_exception
+    raise request.routing_exception
+  File "/home/sheldon/Documents/Project/flask/Flask-Sqlite3-ecommerce/venv/lib/python3.6/site-packages/flask/ctx.py", line 336, in match_request
+    self.url_adapter.match(return_rule=True)
+  File "/home/sheldon/Documents/Project/flask/Flask-Sqlite3-ecommerce/venv/lib/python3.6/site-packages/werkzeug/routing.py", line 1581, in match
+    raise NotFound()
+werkzeug.exceptions.NotFound: 404 Not Found: The requested URL was not found on the server.  If you entered the URL manually please check your spelling and try again.
+2018-12-17 15:07:50,135 - ERROR - views.py - page_not_found - 510 - error 404: 404 Not Found: The requested URL was not found on the server.  If you entered the URL manually please check your spelling and try again.
+Traceback (most recent call last):
+  File "/home/sheldon/Documents/Project/flask/Flask-Sqlite3-ecommerce/venv/lib/python3.6/site-packages/flask/app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/sheldon/Documents/Project/flask/Flask-Sqlite3-ecommerce/venv/lib/python3.6/site-packages/flask/app.py", line 1791, in dispatch_request
+    self.raise_routing_exception(req)
+  File "/home/sheldon/Documents/Project/flask/Flask-Sqlite3-ecommerce/venv/lib/python3.6/site-packages/flask/app.py", line 1774, in raise_routing_exception
+    raise request.routing_exception
+  File "/home/sheldon/Documents/Project/flask/Flask-Sqlite3-ecommerce/venv/lib/python3.6/site-packages/flask/ctx.py", line 336, in match_request
+    self.url_adapter.match(return_rule=True)
+  File "/home/sheldon/Documents/Project/flask/Flask-Sqlite3-ecommerce/venv/lib/python3.6/site-packages/werkzeug/routing.py", line 1581, in match
+    raise NotFound()
+werkzeug.exceptions.NotFound: 404 Not Found: The requested URL was not found on the server.  If you entered the URL manually please check your spelling and try again.
+2018-12-17 15:20:49,023 - ERROR - views.py - page_not_found - 513 - error 404: 404 Not Found: The requested URL was not found on the server.  If you entered the URL manually please check your spelling and try again.
+Traceback (most recent call last):
+  File "/home/sheldon/Documents/Project/flask/Flask-Sqlite3-ecommerce/venv/lib/python3.6/site-packages/flask/app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/sheldon/Documents/Project/flask/Flask-Sqlite3-ecommerce/venv/lib/python3.6/site-packages/flask/app.py", line 1791, in dispatch_request
+    self.raise_routing_exception(req)
+  File "/home/sheldon/Documents/Project/flask/Flask-Sqlite3-ecommerce/venv/lib/python3.6/site-packages/flask/app.py", line 1774, in raise_routing_exception
+    raise request.routing_exception
+  File "/home/sheldon/Documents/Project/flask/Flask-Sqlite3-ecommerce/venv/lib/python3.6/site-packages/flask/ctx.py", line 336, in match_request
+    self.url_adapter.match(return_rule=True)
+  File "/home/sheldon/Documents/Project/flask/Flask-Sqlite3-ecommerce/venv/lib/python3.6/site-packages/werkzeug/routing.py", line 1581, in match
+    raise NotFound()
+werkzeug.exceptions.NotFound: 404 Not Found: The requested URL was not found on the server.  If you entered the URL manually please check your spelling and try again.
+2018-12-17 15:21:14,449 - ERROR - views.py - page_not_found - 513 - error 404: 404 Not Found: The requested URL was not found on the server.  If you entered the URL manually please check your spelling and try again.
+Traceback (most recent call last):
+  File "/home/sheldon/Documents/Project/flask/Flask-Sqlite3-ecommerce/venv/lib/python3.6/site-packages/flask/app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/sheldon/Documents/Project/flask/Flask-Sqlite3-ecommerce/venv/lib/python3.6/site-packages/flask/app.py", line 1791, in dispatch_request
+    self.raise_routing_exception(req)
+  File "/home/sheldon/Documents/Project/flask/Flask-Sqlite3-ecommerce/venv/lib/python3.6/site-packages/flask/app.py", line 1774, in raise_routing_exception
+    raise request.routing_exception
+  File "/home/sheldon/Documents/Project/flask/Flask-Sqlite3-ecommerce/venv/lib/python3.6/site-packages/flask/ctx.py", line 336, in match_request
+    self.url_adapter.match(return_rule=True)
+  File "/home/sheldon/Documents/Project/flask/Flask-Sqlite3-ecommerce/venv/lib/python3.6/site-packages/werkzeug/routing.py", line 1581, in match
+    raise NotFound()
+werkzeug.exceptions.NotFound: 404 Not Found: The requested URL was not found on the server.  If you entered the URL manually please check your spelling and try again.
+2018-12-17 15:21:16,012 - ERROR - views.py - page_not_found - 513 - error 404: 404 Not Found: The requested URL was not found on the server.  If you entered the URL manually please check your spelling and try again.
+Traceback (most recent call last):
+  File "/home/sheldon/Documents/Project/flask/Flask-Sqlite3-ecommerce/venv/lib/python3.6/site-packages/flask/app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/sheldon/Documents/Project/flask/Flask-Sqlite3-ecommerce/venv/lib/python3.6/site-packages/flask/app.py", line 1791, in dispatch_request
+    self.raise_routing_exception(req)
+  File "/home/sheldon/Documents/Project/flask/Flask-Sqlite3-ecommerce/venv/lib/python3.6/site-packages/flask/app.py", line 1774, in raise_routing_exception
+    raise request.routing_exception
+  File "/home/sheldon/Documents/Project/flask/Flask-Sqlite3-ecommerce/venv/lib/python3.6/site-packages/flask/ctx.py", line 336, in match_request
+    self.url_adapter.match(return_rule=True)
+  File "/home/sheldon/Documents/Project/flask/Flask-Sqlite3-ecommerce/venv/lib/python3.6/site-packages/werkzeug/routing.py", line 1581, in match
+    raise NotFound()
+werkzeug.exceptions.NotFound: 404 Not Found: The requested URL was not found on the server.  If you entered the URL manually please check your spelling and try again.
+2018-12-17 15:21:18,948 - ERROR - views.py - page_not_found - 513 - error 404: 404 Not Found: The requested URL was not found on the server.  If you entered the URL manually please check your spelling and try again.
+Traceback (most recent call last):
+  File "/home/sheldon/Documents/Project/flask/Flask-Sqlite3-ecommerce/venv/lib/python3.6/site-packages/flask/app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/sheldon/Documents/Project/flask/Flask-Sqlite3-ecommerce/venv/lib/python3.6/site-packages/flask/app.py", line 1791, in dispatch_request
+    self.raise_routing_exception(req)
+  File "/home/sheldon/Documents/Project/flask/Flask-Sqlite3-ecommerce/venv/lib/python3.6/site-packages/flask/app.py", line 1774, in raise_routing_exception
+    raise request.routing_exception
+  File "/home/sheldon/Documents/Project/flask/Flask-Sqlite3-ecommerce/venv/lib/python3.6/site-packages/flask/ctx.py", line 336, in match_request
+    self.url_adapter.match(return_rule=True)
+  File "/home/sheldon/Documents/Project/flask/Flask-Sqlite3-ecommerce/venv/lib/python3.6/site-packages/werkzeug/routing.py", line 1581, in match
+    raise NotFound()
+werkzeug.exceptions.NotFound: 404 Not Found: The requested URL was not found on the server.  If you entered the URL manually please check your spelling and try again.
+2018-12-17 15:21:21,916 - ERROR - views.py - page_not_found - 513 - error 404: 404 Not Found: The requested URL was not found on the server.  If you entered the URL manually please check your spelling and try again.
+Traceback (most recent call last):
+  File "/home/sheldon/Documents/Project/flask/Flask-Sqlite3-ecommerce/venv/lib/python3.6/site-packages/flask/app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/sheldon/Documents/Project/flask/Flask-Sqlite3-ecommerce/venv/lib/python3.6/site-packages/flask/app.py", line 1791, in dispatch_request
+    self.raise_routing_exception(req)
+  File "/home/sheldon/Documents/Project/flask/Flask-Sqlite3-ecommerce/venv/lib/python3.6/site-packages/flask/app.py", line 1774, in raise_routing_exception
+    raise request.routing_exception
+  File "/home/sheldon/Documents/Project/flask/Flask-Sqlite3-ecommerce/venv/lib/python3.6/site-packages/flask/ctx.py", line 336, in match_request
+    self.url_adapter.match(return_rule=True)
+  File "/home/sheldon/Documents/Project/flask/Flask-Sqlite3-ecommerce/venv/lib/python3.6/site-packages/werkzeug/routing.py", line 1581, in match
+    raise NotFound()
+werkzeug.exceptions.NotFound: 404 Not Found: The requested URL was not found on the server.  If you entered the URL manually please check your spelling and try again.
+2018-12-17 15:21:28,202 - ERROR - views.py - index - 28 - this is a error log
+2018-12-17 15:21:28,203 - WARNING - views.py - index - 29 - this is a warning log
+2018-12-17 15:21:28,203 - INFO - views.py - index - 30 - this is a info log
+2018-12-17 15:21:28,203 - DEBUG - views.py - index - 31 - this is a debug log
+2018-12-17 15:22:42,335 - ERROR - views.py - index - 28 - this is a error log
+2018-12-17 15:22:42,336 - WARNING - views.py - index - 29 - this is a warning log
+2018-12-17 15:22:42,336 - INFO - views.py - index - 30 - this is a info log
+2018-12-17 15:22:42,336 - DEBUG - views.py - index - 31 - this is a debug log
+2018-12-17 15:24:55,356 - ERROR - views.py - page_not_found - 513 - error 404: 404 Not Found: The requested URL was not found on the server.  If you entered the URL manually please check your spelling and try again.
+Traceback (most recent call last):
+  File "/home/sheldon/Documents/Project/flask/Flask-Sqlite3-ecommerce/venv/lib/python3.6/site-packages/flask/app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/sheldon/Documents/Project/flask/Flask-Sqlite3-ecommerce/venv/lib/python3.6/site-packages/flask/app.py", line 1791, in dispatch_request
+    self.raise_routing_exception(req)
+  File "/home/sheldon/Documents/Project/flask/Flask-Sqlite3-ecommerce/venv/lib/python3.6/site-packages/flask/app.py", line 1774, in raise_routing_exception
+    raise request.routing_exception
+  File "/home/sheldon/Documents/Project/flask/Flask-Sqlite3-ecommerce/venv/lib/python3.6/site-packages/flask/ctx.py", line 336, in match_request
+    self.url_adapter.match(return_rule=True)
+  File "/home/sheldon/Documents/Project/flask/Flask-Sqlite3-ecommerce/venv/lib/python3.6/site-packages/werkzeug/routing.py", line 1581, in match
+    raise NotFound()
+werkzeug.exceptions.NotFound: 404 Not Found: The requested URL was not found on the server.  If you entered the URL manually please check your spelling and try again.
+2018-12-17 15:24:56,550 - ERROR - views.py - page_not_found - 513 - error 404: 404 Not Found: The requested URL was not found on the server.  If you entered the URL manually please check your spelling and try again.
+Traceback (most recent call last):
+  File "/home/sheldon/Documents/Project/flask/Flask-Sqlite3-ecommerce/venv/lib/python3.6/site-packages/flask/app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/sheldon/Documents/Project/flask/Flask-Sqlite3-ecommerce/venv/lib/python3.6/site-packages/flask/app.py", line 1791, in dispatch_request
+    self.raise_routing_exception(req)
+  File "/home/sheldon/Documents/Project/flask/Flask-Sqlite3-ecommerce/venv/lib/python3.6/site-packages/flask/app.py", line 1774, in raise_routing_exception
+    raise request.routing_exception
+  File "/home/sheldon/Documents/Project/flask/Flask-Sqlite3-ecommerce/venv/lib/python3.6/site-packages/flask/ctx.py", line 336, in match_request
+    self.url_adapter.match(return_rule=True)
+  File "/home/sheldon/Documents/Project/flask/Flask-Sqlite3-ecommerce/venv/lib/python3.6/site-packages/werkzeug/routing.py", line 1581, in match
+    raise NotFound()
+werkzeug.exceptions.NotFound: 404 Not Found: The requested URL was not found on the server.  If you entered the URL manually please check your spelling and try again.
+2018-12-17 15:24:57,377 - ERROR - views.py - page_not_found - 513 - error 404: 404 Not Found: The requested URL was not found on the server.  If you entered the URL manually please check your spelling and try again.
+Traceback (most recent call last):
+  File "/home/sheldon/Documents/Project/flask/Flask-Sqlite3-ecommerce/venv/lib/python3.6/site-packages/flask/app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/sheldon/Documents/Project/flask/Flask-Sqlite3-ecommerce/venv/lib/python3.6/site-packages/flask/app.py", line 1791, in dispatch_request
+    self.raise_routing_exception(req)
+  File "/home/sheldon/Documents/Project/flask/Flask-Sqlite3-ecommerce/venv/lib/python3.6/site-packages/flask/app.py", line 1774, in raise_routing_exception
+    raise request.routing_exception
+  File "/home/sheldon/Documents/Project/flask/Flask-Sqlite3-ecommerce/venv/lib/python3.6/site-packages/flask/ctx.py", line 336, in match_request
+    self.url_adapter.match(return_rule=True)
+  File "/home/sheldon/Documents/Project/flask/Flask-Sqlite3-ecommerce/venv/lib/python3.6/site-packages/werkzeug/routing.py", line 1581, in match
+    raise NotFound()
+werkzeug.exceptions.NotFound: 404 Not Found: The requested URL was not found on the server.  If you entered the URL manually please check your spelling and try again.
+2018-12-17 15:24:59,234 - ERROR - views.py - page_not_found - 513 - error 404: 404 Not Found: The requested URL was not found on the server.  If you entered the URL manually please check your spelling and try again.
+Traceback (most recent call last):
+  File "/home/sheldon/Documents/Project/flask/Flask-Sqlite3-ecommerce/venv/lib/python3.6/site-packages/flask/app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/sheldon/Documents/Project/flask/Flask-Sqlite3-ecommerce/venv/lib/python3.6/site-packages/flask/app.py", line 1791, in dispatch_request
+    self.raise_routing_exception(req)
+  File "/home/sheldon/Documents/Project/flask/Flask-Sqlite3-ecommerce/venv/lib/python3.6/site-packages/flask/app.py", line 1774, in raise_routing_exception
+    raise request.routing_exception
+  File "/home/sheldon/Documents/Project/flask/Flask-Sqlite3-ecommerce/venv/lib/python3.6/site-packages/flask/ctx.py", line 336, in match_request
+    self.url_adapter.match(return_rule=True)
+  File "/home/sheldon/Documents/Project/flask/Flask-Sqlite3-ecommerce/venv/lib/python3.6/site-packages/werkzeug/routing.py", line 1581, in match
+    raise NotFound()
+werkzeug.exceptions.NotFound: 404 Not Found: The requested URL was not found on the server.  If you entered the URL manually please check your spelling and try again.
+2018-12-17 15:25:19,710 - ERROR - views.py - page_not_found - 513 - error 404: 404 Not Found: The requested URL was not found on the server.  If you entered the URL manually please check your spelling and try again.
+Traceback (most recent call last):
+  File "/home/sheldon/Documents/Project/flask/Flask-Sqlite3-ecommerce/venv/lib/python3.6/site-packages/flask/app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/sheldon/Documents/Project/flask/Flask-Sqlite3-ecommerce/venv/lib/python3.6/site-packages/flask/app.py", line 1791, in dispatch_request
+    self.raise_routing_exception(req)
+  File "/home/sheldon/Documents/Project/flask/Flask-Sqlite3-ecommerce/venv/lib/python3.6/site-packages/flask/app.py", line 1774, in raise_routing_exception
+    raise request.routing_exception
+  File "/home/sheldon/Documents/Project/flask/Flask-Sqlite3-ecommerce/venv/lib/python3.6/site-packages/flask/ctx.py", line 336, in match_request
+    self.url_adapter.match(return_rule=True)
+  File "/home/sheldon/Documents/Project/flask/Flask-Sqlite3-ecommerce/venv/lib/python3.6/site-packages/werkzeug/routing.py", line 1581, in match
+    raise NotFound()
+werkzeug.exceptions.NotFound: 404 Not Found: The requested URL was not found on the server.  If you entered the URL manually please check your spelling and try again.
+2018-12-17 15:25:19,986 - ERROR - views.py - page_not_found - 513 - error 404: 404 Not Found: The requested URL was not found on the server.  If you entered the URL manually please check your spelling and try again.
+Traceback (most recent call last):
+  File "/home/sheldon/Documents/Project/flask/Flask-Sqlite3-ecommerce/venv/lib/python3.6/site-packages/flask/app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/sheldon/Documents/Project/flask/Flask-Sqlite3-ecommerce/venv/lib/python3.6/site-packages/flask/app.py", line 1791, in dispatch_request
+    self.raise_routing_exception(req)
+  File "/home/sheldon/Documents/Project/flask/Flask-Sqlite3-ecommerce/venv/lib/python3.6/site-packages/flask/app.py", line 1774, in raise_routing_exception
+    raise request.routing_exception
+  File "/home/sheldon/Documents/Project/flask/Flask-Sqlite3-ecommerce/venv/lib/python3.6/site-packages/flask/ctx.py", line 336, in match_request
+    self.url_adapter.match(return_rule=True)
+  File "/home/sheldon/Documents/Project/flask/Flask-Sqlite3-ecommerce/venv/lib/python3.6/site-packages/werkzeug/routing.py", line 1581, in match
+    raise NotFound()
+werkzeug.exceptions.NotFound: 404 Not Found: The requested URL was not found on the server.  If you entered the URL manually please check your spelling and try again.
+2018-12-17 15:25:20,154 - ERROR - views.py - page_not_found - 513 - error 404: 404 Not Found: The requested URL was not found on the server.  If you entered the URL manually please check your spelling and try again.
+Traceback (most recent call last):
+  File "/home/sheldon/Documents/Project/flask/Flask-Sqlite3-ecommerce/venv/lib/python3.6/site-packages/flask/app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/sheldon/Documents/Project/flask/Flask-Sqlite3-ecommerce/venv/lib/python3.6/site-packages/flask/app.py", line 1791, in dispatch_request
+    self.raise_routing_exception(req)
+  File "/home/sheldon/Documents/Project/flask/Flask-Sqlite3-ecommerce/venv/lib/python3.6/site-packages/flask/app.py", line 1774, in raise_routing_exception
+    raise request.routing_exception
+  File "/home/sheldon/Documents/Project/flask/Flask-Sqlite3-ecommerce/venv/lib/python3.6/site-packages/flask/ctx.py", line 336, in match_request
+    self.url_adapter.match(return_rule=True)
+  File "/home/sheldon/Documents/Project/flask/Flask-Sqlite3-ecommerce/venv/lib/python3.6/site-packages/werkzeug/routing.py", line 1581, in match
+    raise NotFound()
+werkzeug.exceptions.NotFound: 404 Not Found: The requested URL was not found on the server.  If you entered the URL manually please check your spelling and try again.
+2018-12-17 15:25:20,324 - ERROR - views.py - page_not_found - 513 - error 404: 404 Not Found: The requested URL was not found on the server.  If you entered the URL manually please check your spelling and try again.
+Traceback (most recent call last):
+  File "/home/sheldon/Documents/Project/flask/Flask-Sqlite3-ecommerce/venv/lib/python3.6/site-packages/flask/app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/sheldon/Documents/Project/flask/Flask-Sqlite3-ecommerce/venv/lib/python3.6/site-packages/flask/app.py", line 1791, in dispatch_request
+    self.raise_routing_exception(req)
+  File "/home/sheldon/Documents/Project/flask/Flask-Sqlite3-ecommerce/venv/lib/python3.6/site-packages/flask/app.py", line 1774, in raise_routing_exception
+    raise request.routing_exception
+  File "/home/sheldon/Documents/Project/flask/Flask-Sqlite3-ecommerce/venv/lib/python3.6/site-packages/flask/ctx.py", line 336, in match_request
+    self.url_adapter.match(return_rule=True)
+  File "/home/sheldon/Documents/Project/flask/Flask-Sqlite3-ecommerce/venv/lib/python3.6/site-packages/werkzeug/routing.py", line 1581, in match
+    raise NotFound()
+werkzeug.exceptions.NotFound: 404 Not Found: The requested URL was not found on the server.  If you entered the URL manually please check your spelling and try again.
+2018-12-17 15:25:22,054 - ERROR - views.py - index - 28 - this is a error log
+2018-12-17 15:25:22,054 - WARNING - views.py - index - 29 - this is a warning log
+2018-12-17 15:25:22,054 - INFO - views.py - index - 30 - this is a info log
+2018-12-17 15:25:22,054 - DEBUG - views.py - index - 31 - this is a debug log
+2018-12-17 15:25:30,839 - ERROR - views.py - index - 28 - this is a error log
+2018-12-17 15:25:30,839 - WARNING - views.py - index - 29 - this is a warning log
+2018-12-17 15:25:30,840 - INFO - views.py - index - 30 - this is a info log
+2018-12-17 15:25:30,840 - DEBUG - views.py - index - 31 - this is a debug log
+2018-12-17 15:25:32,638 - ERROR - views.py - page_not_found - 513 - error 404: 404 Not Found: The requested URL was not found on the server.  If you entered the URL manually please check your spelling and try again.
+Traceback (most recent call last):
+  File "/home/sheldon/Documents/Project/flask/Flask-Sqlite3-ecommerce/venv/lib/python3.6/site-packages/flask/app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/sheldon/Documents/Project/flask/Flask-Sqlite3-ecommerce/venv/lib/python3.6/site-packages/flask/app.py", line 1791, in dispatch_request
+    self.raise_routing_exception(req)
+  File "/home/sheldon/Documents/Project/flask/Flask-Sqlite3-ecommerce/venv/lib/python3.6/site-packages/flask/app.py", line 1774, in raise_routing_exception
+    raise request.routing_exception
+  File "/home/sheldon/Documents/Project/flask/Flask-Sqlite3-ecommerce/venv/lib/python3.6/site-packages/flask/ctx.py", line 336, in match_request
+    self.url_adapter.match(return_rule=True)
+  File "/home/sheldon/Documents/Project/flask/Flask-Sqlite3-ecommerce/venv/lib/python3.6/site-packages/werkzeug/routing.py", line 1581, in match
+    raise NotFound()
+werkzeug.exceptions.NotFound: 404 Not Found: The requested URL was not found on the server.  If you entered the URL manually please check your spelling and try again.
+2018-12-17 15:26:48,497 - ERROR - views.py - page_not_found - 513 - error 404: 404 Not Found: The requested URL was not found on the server.  If you entered the URL manually please check your spelling and try again.
+Traceback (most recent call last):
+  File "/home/sheldon/Documents/Project/flask/Flask-Sqlite3-ecommerce/venv/lib/python3.6/site-packages/flask/app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/sheldon/Documents/Project/flask/Flask-Sqlite3-ecommerce/venv/lib/python3.6/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/sheldon/Documents/Project/flask/Flask-Sqlite3-ecommerce/venv/lib/python3.6/site-packages/flask/helpers.py", line 976, in send_static_file
+    cache_timeout=cache_timeout)
+  File "/home/sheldon/Documents/Project/flask/Flask-Sqlite3-ecommerce/venv/lib/python3.6/site-packages/flask/helpers.py", line 709, in send_from_directory
+    raise NotFound()
+werkzeug.exceptions.NotFound: 404 Not Found: The requested URL was not found on the server.  If you entered the URL manually please check your spelling and try again.
+2018-12-17 15:26:48,518 - ERROR - views.py - page_not_found - 513 - error 404: 404 Not Found: The requested URL was not found on the server.  If you entered the URL manually please check your spelling and try again.
+Traceback (most recent call last):
+  File "/home/sheldon/Documents/Project/flask/Flask-Sqlite3-ecommerce/venv/lib/python3.6/site-packages/flask/app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/sheldon/Documents/Project/flask/Flask-Sqlite3-ecommerce/venv/lib/python3.6/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/sheldon/Documents/Project/flask/Flask-Sqlite3-ecommerce/venv/lib/python3.6/site-packages/flask/helpers.py", line 976, in send_static_file
+    cache_timeout=cache_timeout)
+  File "/home/sheldon/Documents/Project/flask/Flask-Sqlite3-ecommerce/venv/lib/python3.6/site-packages/flask/helpers.py", line 709, in send_from_directory
+    raise NotFound()
+werkzeug.exceptions.NotFound: 404 Not Found: The requested URL was not found on the server.  If you entered the URL manually please check your spelling and try again.
+2018-12-17 15:26:48,521 - ERROR - views.py - page_not_found - 513 - error 404: 404 Not Found: The requested URL was not found on the server.  If you entered the URL manually please check your spelling and try again.
+Traceback (most recent call last):
+  File "/home/sheldon/Documents/Project/flask/Flask-Sqlite3-ecommerce/venv/lib/python3.6/site-packages/flask/app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/sheldon/Documents/Project/flask/Flask-Sqlite3-ecommerce/venv/lib/python3.6/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/sheldon/Documents/Project/flask/Flask-Sqlite3-ecommerce/venv/lib/python3.6/site-packages/flask/helpers.py", line 976, in send_static_file
+    cache_timeout=cache_timeout)
+  File "/home/sheldon/Documents/Project/flask/Flask-Sqlite3-ecommerce/venv/lib/python3.6/site-packages/flask/helpers.py", line 709, in send_from_directory
+    raise NotFound()
+werkzeug.exceptions.NotFound: 404 Not Found: The requested URL was not found on the server.  If you entered the URL manually please check your spelling and try again.
+2018-12-17 15:26:50,361 - ERROR - views.py - page_not_found - 513 - error 404: 404 Not Found: The requested URL was not found on the server.  If you entered the URL manually please check your spelling and try again.
+Traceback (most recent call last):
+  File "/home/sheldon/Documents/Project/flask/Flask-Sqlite3-ecommerce/venv/lib/python3.6/site-packages/flask/app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/sheldon/Documents/Project/flask/Flask-Sqlite3-ecommerce/venv/lib/python3.6/site-packages/flask/app.py", line 1791, in dispatch_request
+    self.raise_routing_exception(req)
+  File "/home/sheldon/Documents/Project/flask/Flask-Sqlite3-ecommerce/venv/lib/python3.6/site-packages/flask/app.py", line 1774, in raise_routing_exception
+    raise request.routing_exception
+  File "/home/sheldon/Documents/Project/flask/Flask-Sqlite3-ecommerce/venv/lib/python3.6/site-packages/flask/ctx.py", line 336, in match_request
+    self.url_adapter.match(return_rule=True)
+  File "/home/sheldon/Documents/Project/flask/Flask-Sqlite3-ecommerce/venv/lib/python3.6/site-packages/werkzeug/routing.py", line 1581, in match
+    raise NotFound()
+werkzeug.exceptions.NotFound: 404 Not Found: The requested URL was not found on the server.  If you entered the URL manually please check your spelling and try again.
+2018-12-17 15:26:50,547 - ERROR - views.py - page_not_found - 513 - error 404: 404 Not Found: The requested URL was not found on the server.  If you entered the URL manually please check your spelling and try again.
+Traceback (most recent call last):
+  File "/home/sheldon/Documents/Project/flask/Flask-Sqlite3-ecommerce/venv/lib/python3.6/site-packages/flask/app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/sheldon/Documents/Project/flask/Flask-Sqlite3-ecommerce/venv/lib/python3.6/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/sheldon/Documents/Project/flask/Flask-Sqlite3-ecommerce/venv/lib/python3.6/site-packages/flask/helpers.py", line 976, in send_static_file
+    cache_timeout=cache_timeout)
+  File "/home/sheldon/Documents/Project/flask/Flask-Sqlite3-ecommerce/venv/lib/python3.6/site-packages/flask/helpers.py", line 709, in send_from_directory
+    raise NotFound()
+werkzeug.exceptions.NotFound: 404 Not Found: The requested URL was not found on the server.  If you entered the URL manually please check your spelling and try again.
+2018-12-17 15:26:50,558 - ERROR - views.py - page_not_found - 513 - error 404: 404 Not Found: The requested URL was not found on the server.  If you entered the URL manually please check your spelling and try again.
+Traceback (most recent call last):
+  File "/home/sheldon/Documents/Project/flask/Flask-Sqlite3-ecommerce/venv/lib/python3.6/site-packages/flask/app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/sheldon/Documents/Project/flask/Flask-Sqlite3-ecommerce/venv/lib/python3.6/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/sheldon/Documents/Project/flask/Flask-Sqlite3-ecommerce/venv/lib/python3.6/site-packages/flask/helpers.py", line 976, in send_static_file
+    cache_timeout=cache_timeout)
+  File "/home/sheldon/Documents/Project/flask/Flask-Sqlite3-ecommerce/venv/lib/python3.6/site-packages/flask/helpers.py", line 709, in send_from_directory
+    raise NotFound()
+werkzeug.exceptions.NotFound: 404 Not Found: The requested URL was not found on the server.  If you entered the URL manually please check your spelling and try again.
+2018-12-17 15:26:50,560 - ERROR - views.py - page_not_found - 513 - error 404: 404 Not Found: The requested URL was not found on the server.  If you entered the URL manually please check your spelling and try again.
+Traceback (most recent call last):
+  File "/home/sheldon/Documents/Project/flask/Flask-Sqlite3-ecommerce/venv/lib/python3.6/site-packages/flask/app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/sheldon/Documents/Project/flask/Flask-Sqlite3-ecommerce/venv/lib/python3.6/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/sheldon/Documents/Project/flask/Flask-Sqlite3-ecommerce/venv/lib/python3.6/site-packages/flask/helpers.py", line 976, in send_static_file
+    cache_timeout=cache_timeout)
+  File "/home/sheldon/Documents/Project/flask/Flask-Sqlite3-ecommerce/venv/lib/python3.6/site-packages/flask/helpers.py", line 709, in send_from_directory
+    raise NotFound()
+werkzeug.exceptions.NotFound: 404 Not Found: The requested URL was not found on the server.  If you entered the URL manually please check your spelling and try again.
+2018-12-17 15:27:12,051 - ERROR - views.py - page_not_found - 513 - error 404: 404 Not Found: The requested URL was not found on the server.  If you entered the URL manually please check your spelling and try again.
+Traceback (most recent call last):
+  File "/home/sheldon/Documents/Project/flask/Flask-Sqlite3-ecommerce/venv/lib/python3.6/site-packages/flask/app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/sheldon/Documents/Project/flask/Flask-Sqlite3-ecommerce/venv/lib/python3.6/site-packages/flask/app.py", line 1791, in dispatch_request
+    self.raise_routing_exception(req)
+  File "/home/sheldon/Documents/Project/flask/Flask-Sqlite3-ecommerce/venv/lib/python3.6/site-packages/flask/app.py", line 1774, in raise_routing_exception
+    raise request.routing_exception
+  File "/home/sheldon/Documents/Project/flask/Flask-Sqlite3-ecommerce/venv/lib/python3.6/site-packages/flask/ctx.py", line 336, in match_request
+    self.url_adapter.match(return_rule=True)
+  File "/home/sheldon/Documents/Project/flask/Flask-Sqlite3-ecommerce/venv/lib/python3.6/site-packages/werkzeug/routing.py", line 1581, in match
+    raise NotFound()
+werkzeug.exceptions.NotFound: 404 Not Found: The requested URL was not found on the server.  If you entered the URL manually please check your spelling and try again.
+2018-12-17 15:27:12,223 - ERROR - views.py - page_not_found - 513 - error 404: 404 Not Found: The requested URL was not found on the server.  If you entered the URL manually please check your spelling and try again.
+Traceback (most recent call last):
+  File "/home/sheldon/Documents/Project/flask/Flask-Sqlite3-ecommerce/venv/lib/python3.6/site-packages/flask/app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/sheldon/Documents/Project/flask/Flask-Sqlite3-ecommerce/venv/lib/python3.6/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/sheldon/Documents/Project/flask/Flask-Sqlite3-ecommerce/venv/lib/python3.6/site-packages/flask/helpers.py", line 976, in send_static_file
+    cache_timeout=cache_timeout)
+  File "/home/sheldon/Documents/Project/flask/Flask-Sqlite3-ecommerce/venv/lib/python3.6/site-packages/flask/helpers.py", line 709, in send_from_directory
+    raise NotFound()
+werkzeug.exceptions.NotFound: 404 Not Found: The requested URL was not found on the server.  If you entered the URL manually please check your spelling and try again.
+2018-12-17 15:27:12,244 - ERROR - views.py - page_not_found - 513 - error 404: 404 Not Found: The requested URL was not found on the server.  If you entered the URL manually please check your spelling and try again.
+Traceback (most recent call last):
+  File "/home/sheldon/Documents/Project/flask/Flask-Sqlite3-ecommerce/venv/lib/python3.6/site-packages/flask/app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/sheldon/Documents/Project/flask/Flask-Sqlite3-ecommerce/venv/lib/python3.6/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/sheldon/Documents/Project/flask/Flask-Sqlite3-ecommerce/venv/lib/python3.6/site-packages/flask/helpers.py", line 976, in send_static_file
+    cache_timeout=cache_timeout)
+  File "/home/sheldon/Documents/Project/flask/Flask-Sqlite3-ecommerce/venv/lib/python3.6/site-packages/flask/helpers.py", line 709, in send_from_directory
+    raise NotFound()
+werkzeug.exceptions.NotFound: 404 Not Found: The requested URL was not found on the server.  If you entered the URL manually please check your spelling and try again.
+2018-12-17 15:27:12,249 - ERROR - views.py - page_not_found - 513 - error 404: 404 Not Found: The requested URL was not found on the server.  If you entered the URL manually please check your spelling and try again.
+Traceback (most recent call last):
+  File "/home/sheldon/Documents/Project/flask/Flask-Sqlite3-ecommerce/venv/lib/python3.6/site-packages/flask/app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/sheldon/Documents/Project/flask/Flask-Sqlite3-ecommerce/venv/lib/python3.6/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/sheldon/Documents/Project/flask/Flask-Sqlite3-ecommerce/venv/lib/python3.6/site-packages/flask/helpers.py", line 976, in send_static_file
+    cache_timeout=cache_timeout)
+  File "/home/sheldon/Documents/Project/flask/Flask-Sqlite3-ecommerce/venv/lib/python3.6/site-packages/flask/helpers.py", line 709, in send_from_directory
+    raise NotFound()
+werkzeug.exceptions.NotFound: 404 Not Found: The requested URL was not found on the server.  If you entered the URL manually please check your spelling and try again.
+2018-12-17 15:34:32,281 - ERROR - views.py - page_not_found - 513 - error 404: 404 Not Found: The requested URL was not found on the server.  If you entered the URL manually please check your spelling and try again.
+Traceback (most recent call last):
+  File "/home/sheldon/Documents/Project/flask/Flask-Sqlite3-ecommerce/venv/lib/python3.6/site-packages/flask/app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/sheldon/Documents/Project/flask/Flask-Sqlite3-ecommerce/venv/lib/python3.6/site-packages/flask/app.py", line 1791, in dispatch_request
+    self.raise_routing_exception(req)
+  File "/home/sheldon/Documents/Project/flask/Flask-Sqlite3-ecommerce/venv/lib/python3.6/site-packages/flask/app.py", line 1774, in raise_routing_exception
+    raise request.routing_exception
+  File "/home/sheldon/Documents/Project/flask/Flask-Sqlite3-ecommerce/venv/lib/python3.6/site-packages/flask/ctx.py", line 336, in match_request
+    self.url_adapter.match(return_rule=True)
+  File "/home/sheldon/Documents/Project/flask/Flask-Sqlite3-ecommerce/venv/lib/python3.6/site-packages/werkzeug/routing.py", line 1581, in match
+    raise NotFound()
+werkzeug.exceptions.NotFound: 404 Not Found: The requested URL was not found on the server.  If you entered the URL manually please check your spelling and try again.
+2018-12-17 15:34:32,472 - ERROR - views.py - page_not_found - 513 - error 404: 404 Not Found: The requested URL was not found on the server.  If you entered the URL manually please check your spelling and try again.
+Traceback (most recent call last):
+  File "/home/sheldon/Documents/Project/flask/Flask-Sqlite3-ecommerce/venv/lib/python3.6/site-packages/flask/app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/sheldon/Documents/Project/flask/Flask-Sqlite3-ecommerce/venv/lib/python3.6/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/sheldon/Documents/Project/flask/Flask-Sqlite3-ecommerce/venv/lib/python3.6/site-packages/flask/helpers.py", line 976, in send_static_file
+    cache_timeout=cache_timeout)
+  File "/home/sheldon/Documents/Project/flask/Flask-Sqlite3-ecommerce/venv/lib/python3.6/site-packages/flask/helpers.py", line 709, in send_from_directory
+    raise NotFound()
+werkzeug.exceptions.NotFound: 404 Not Found: The requested URL was not found on the server.  If you entered the URL manually please check your spelling and try again.
+2018-12-17 15:34:32,495 - ERROR - views.py - page_not_found - 513 - error 404: 404 Not Found: The requested URL was not found on the server.  If you entered the URL manually please check your spelling and try again.
+Traceback (most recent call last):
+  File "/home/sheldon/Documents/Project/flask/Flask-Sqlite3-ecommerce/venv/lib/python3.6/site-packages/flask/app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/sheldon/Documents/Project/flask/Flask-Sqlite3-ecommerce/venv/lib/python3.6/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/sheldon/Documents/Project/flask/Flask-Sqlite3-ecommerce/venv/lib/python3.6/site-packages/flask/helpers.py", line 976, in send_static_file
+    cache_timeout=cache_timeout)
+  File "/home/sheldon/Documents/Project/flask/Flask-Sqlite3-ecommerce/venv/lib/python3.6/site-packages/flask/helpers.py", line 709, in send_from_directory
+    raise NotFound()
+werkzeug.exceptions.NotFound: 404 Not Found: The requested URL was not found on the server.  If you entered the URL manually please check your spelling and try again.
+2018-12-17 15:34:32,498 - ERROR - views.py - page_not_found - 513 - error 404: 404 Not Found: The requested URL was not found on the server.  If you entered the URL manually please check your spelling and try again.
+Traceback (most recent call last):
+  File "/home/sheldon/Documents/Project/flask/Flask-Sqlite3-ecommerce/venv/lib/python3.6/site-packages/flask/app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/sheldon/Documents/Project/flask/Flask-Sqlite3-ecommerce/venv/lib/python3.6/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/sheldon/Documents/Project/flask/Flask-Sqlite3-ecommerce/venv/lib/python3.6/site-packages/flask/helpers.py", line 976, in send_static_file
+    cache_timeout=cache_timeout)
+  File "/home/sheldon/Documents/Project/flask/Flask-Sqlite3-ecommerce/venv/lib/python3.6/site-packages/flask/helpers.py", line 709, in send_from_directory
+    raise NotFound()
+werkzeug.exceptions.NotFound: 404 Not Found: The requested URL was not found on the server.  If you entered the URL manually please check your spelling and try again.
+2018-12-17 15:34:34,311 - ERROR - views.py - index - 28 - this is a error log
+2018-12-17 15:34:34,312 - WARNING - views.py - index - 29 - this is a warning log
+2018-12-17 15:34:34,312 - INFO - views.py - index - 30 - this is a info log
+2018-12-17 15:34:34,312 - DEBUG - views.py - index - 31 - this is a debug log
+2018-12-17 16:23:54,078 - ERROR - views.py - index - 28 - this is a error log
+2018-12-17 16:23:54,109 - WARNING - views.py - index - 29 - this is a warning log
+2018-12-17 16:23:54,109 - INFO - views.py - index - 30 - this is a info log
+2018-12-17 16:23:54,110 - DEBUG - views.py - index - 31 - this is a debug log
+2018-12-17 16:24:19,210 - ERROR - views.py - index - 28 - this is a error log
+2018-12-17 16:24:19,210 - WARNING - views.py - index - 29 - this is a warning log
+2018-12-17 16:24:19,210 - INFO - views.py - index - 30 - this is a info log
+2018-12-17 16:24:19,210 - DEBUG - views.py - index - 31 - this is a debug log
+2018-12-17 16:27:09,815 - ERROR - views.py - page_not_found - 513 - error 404: 404 Not Found: The requested URL was not found on the server.  If you entered the URL manually please check your spelling and try again.
+Traceback (most recent call last):
+  File "/home/sheldon/Documents/Project/flask/Flask-Sqlite3-ecommerce/venv/lib/python3.6/site-packages/flask/app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/sheldon/Documents/Project/flask/Flask-Sqlite3-ecommerce/venv/lib/python3.6/site-packages/flask/app.py", line 1791, in dispatch_request
+    self.raise_routing_exception(req)
+  File "/home/sheldon/Documents/Project/flask/Flask-Sqlite3-ecommerce/venv/lib/python3.6/site-packages/flask/app.py", line 1774, in raise_routing_exception
+    raise request.routing_exception
+  File "/home/sheldon/Documents/Project/flask/Flask-Sqlite3-ecommerce/venv/lib/python3.6/site-packages/flask/ctx.py", line 336, in match_request
+    self.url_adapter.match(return_rule=True)
+  File "/home/sheldon/Documents/Project/flask/Flask-Sqlite3-ecommerce/venv/lib/python3.6/site-packages/werkzeug/routing.py", line 1581, in match
+    raise NotFound()
+werkzeug.exceptions.NotFound: 404 Not Found: The requested URL was not found on the server.  If you entered the URL manually please check your spelling and try again.
+2018-12-17 16:27:13,279 - ERROR - views.py - page_not_found - 513 - error 404: 404 Not Found: The requested URL was not found on the server.  If you entered the URL manually please check your spelling and try again.
+Traceback (most recent call last):
+  File "/home/sheldon/Documents/Project/flask/Flask-Sqlite3-ecommerce/venv/lib/python3.6/site-packages/flask/app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/sheldon/Documents/Project/flask/Flask-Sqlite3-ecommerce/venv/lib/python3.6/site-packages/flask/app.py", line 1791, in dispatch_request
+    self.raise_routing_exception(req)
+  File "/home/sheldon/Documents/Project/flask/Flask-Sqlite3-ecommerce/venv/lib/python3.6/site-packages/flask/app.py", line 1774, in raise_routing_exception
+    raise request.routing_exception
+  File "/home/sheldon/Documents/Project/flask/Flask-Sqlite3-ecommerce/venv/lib/python3.6/site-packages/flask/ctx.py", line 336, in match_request
+    self.url_adapter.match(return_rule=True)
+  File "/home/sheldon/Documents/Project/flask/Flask-Sqlite3-ecommerce/venv/lib/python3.6/site-packages/werkzeug/routing.py", line 1581, in match
+    raise NotFound()
+werkzeug.exceptions.NotFound: 404 Not Found: The requested URL was not found on the server.  If you entered the URL manually please check your spelling and try again.
+2018-12-17 16:35:44,767 - ERROR - views.py - page_not_found - 513 - error 404: 404 Not Found: The requested URL was not found on the server.  If you entered the URL manually please check your spelling and try again.
+Traceback (most recent call last):
+  File "/home/sheldon/Documents/Project/flask/Flask-Sqlite3-ecommerce/venv/lib/python3.6/site-packages/flask/app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/sheldon/Documents/Project/flask/Flask-Sqlite3-ecommerce/venv/lib/python3.6/site-packages/flask/app.py", line 1791, in dispatch_request
+    self.raise_routing_exception(req)
+  File "/home/sheldon/Documents/Project/flask/Flask-Sqlite3-ecommerce/venv/lib/python3.6/site-packages/flask/app.py", line 1774, in raise_routing_exception
+    raise request.routing_exception
+  File "/home/sheldon/Documents/Project/flask/Flask-Sqlite3-ecommerce/venv/lib/python3.6/site-packages/flask/ctx.py", line 336, in match_request
+    self.url_adapter.match(return_rule=True)
+  File "/home/sheldon/Documents/Project/flask/Flask-Sqlite3-ecommerce/venv/lib/python3.6/site-packages/werkzeug/routing.py", line 1581, in match
+    raise NotFound()
+werkzeug.exceptions.NotFound: 404 Not Found: The requested URL was not found on the server.  If you entered the URL manually please check your spelling and try again.
+2018-12-17 16:35:47,686 - ERROR - views.py - page_not_found - 513 - error 404: 404 Not Found: The requested URL was not found on the server.  If you entered the URL manually please check your spelling and try again.
+Traceback (most recent call last):
+  File "/home/sheldon/Documents/Project/flask/Flask-Sqlite3-ecommerce/venv/lib/python3.6/site-packages/flask/app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/sheldon/Documents/Project/flask/Flask-Sqlite3-ecommerce/venv/lib/python3.6/site-packages/flask/app.py", line 1791, in dispatch_request
+    self.raise_routing_exception(req)
+  File "/home/sheldon/Documents/Project/flask/Flask-Sqlite3-ecommerce/venv/lib/python3.6/site-packages/flask/app.py", line 1774, in raise_routing_exception
+    raise request.routing_exception
+  File "/home/sheldon/Documents/Project/flask/Flask-Sqlite3-ecommerce/venv/lib/python3.6/site-packages/flask/ctx.py", line 336, in match_request
+    self.url_adapter.match(return_rule=True)
+  File "/home/sheldon/Documents/Project/flask/Flask-Sqlite3-ecommerce/venv/lib/python3.6/site-packages/werkzeug/routing.py", line 1581, in match
+    raise NotFound()
+werkzeug.exceptions.NotFound: 404 Not Found: The requested URL was not found on the server.  If you entered the URL manually please check your spelling and try again.
+2018-12-17 16:35:49,969 - ERROR - views.py - page_not_found - 513 - error 404: 404 Not Found: The requested URL was not found on the server.  If you entered the URL manually please check your spelling and try again.
+Traceback (most recent call last):
+  File "/home/sheldon/Documents/Project/flask/Flask-Sqlite3-ecommerce/venv/lib/python3.6/site-packages/flask/app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/sheldon/Documents/Project/flask/Flask-Sqlite3-ecommerce/venv/lib/python3.6/site-packages/flask/app.py", line 1791, in dispatch_request
+    self.raise_routing_exception(req)
+  File "/home/sheldon/Documents/Project/flask/Flask-Sqlite3-ecommerce/venv/lib/python3.6/site-packages/flask/app.py", line 1774, in raise_routing_exception
+    raise request.routing_exception
+  File "/home/sheldon/Documents/Project/flask/Flask-Sqlite3-ecommerce/venv/lib/python3.6/site-packages/flask/ctx.py", line 336, in match_request
+    self.url_adapter.match(return_rule=True)
+  File "/home/sheldon/Documents/Project/flask/Flask-Sqlite3-ecommerce/venv/lib/python3.6/site-packages/werkzeug/routing.py", line 1581, in match
+    raise NotFound()
+werkzeug.exceptions.NotFound: 404 Not Found: The requested URL was not found on the server.  If you entered the URL manually please check your spelling and try again.
+2018-12-17 16:35:53,815 - ERROR - views.py - index - 28 - this is a error log
+2018-12-17 16:35:53,816 - WARNING - views.py - index - 29 - this is a warning log
+2018-12-17 16:35:53,816 - INFO - views.py - index - 30 - this is a info log
+2018-12-17 16:35:53,817 - DEBUG - views.py - index - 31 - this is a debug log
+2018-12-17 16:35:58,165 - ERROR - views.py - page_not_found - 513 - error 404: 404 Not Found: The requested URL was not found on the server.  If you entered the URL manually please check your spelling and try again.
+Traceback (most recent call last):
+  File "/home/sheldon/Documents/Project/flask/Flask-Sqlite3-ecommerce/venv/lib/python3.6/site-packages/flask/app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/sheldon/Documents/Project/flask/Flask-Sqlite3-ecommerce/venv/lib/python3.6/site-packages/flask/app.py", line 1791, in dispatch_request
+    self.raise_routing_exception(req)
+  File "/home/sheldon/Documents/Project/flask/Flask-Sqlite3-ecommerce/venv/lib/python3.6/site-packages/flask/app.py", line 1774, in raise_routing_exception
+    raise request.routing_exception
+  File "/home/sheldon/Documents/Project/flask/Flask-Sqlite3-ecommerce/venv/lib/python3.6/site-packages/flask/ctx.py", line 336, in match_request
+    self.url_adapter.match(return_rule=True)
+  File "/home/sheldon/Documents/Project/flask/Flask-Sqlite3-ecommerce/venv/lib/python3.6/site-packages/werkzeug/routing.py", line 1581, in match
+    raise NotFound()
+werkzeug.exceptions.NotFound: 404 Not Found: The requested URL was not found on the server.  If you entered the URL manually please check your spelling and try again.
+2018-12-17 16:37:37,618 - ERROR - views.py - index - 28 - this is a error log
+2018-12-17 16:37:37,618 - WARNING - views.py - index - 29 - this is a warning log
+2018-12-17 16:37:37,618 - INFO - views.py - index - 30 - this is a info log
+2018-12-17 16:37:37,618 - DEBUG - views.py - index - 31 - this is a debug log

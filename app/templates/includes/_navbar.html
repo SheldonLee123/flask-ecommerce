@@ -19,10 +19,10 @@
           <li class="dropdown">
             <a href="#" class="dropdown-toggle" data-toggle="dropdown">Collections <span class="caret"></span></a>
             <ul class="dropdown-menu" role="menu">
-              <li><a href="/collections"><strong>All</strong></a></li>
-              <li><a href="/category/Men">Men</a></li>
-              <li><a href="/category/Women">Women</a></li>
-              <li><a href="/category/Gifts">Gifts</a></li>
+              <li><a href="/collections/1"><strong>All</strong></a></li>
+              <li><a href="/category/Men/1">Men</a></li>
+              <li><a href="/category/Women/1">Women</a></li>
+              <li><a href="/category/Gifts/1">Gifts</a></li>
             </ul>
           </li>
           <li class="dropdown">
@@ -46,7 +46,7 @@
           <li><a href="/user_edit" data-target="#login"><span class="glyphicon glyphicon-user"></span> {{session.name}}</a>
           <li><a href="/logout" data-target="#logout"><span class="glyphicon glyphicon-user"></span> Logout</a></li>
           {% if session.is_seller %}
-          <li><a href="/seller_product/{{session.id}}" data-target="#logout"><span class="glyphicon glyphicon-shopping-cart"></span> My Product</a></li>
+          <li><a href="/seller_product/{{session.id}}/1" data-target="#logout"><span class="glyphicon glyphicon-shopping-cart"></span> My Shop</a></li>
           {% else %}
           <li class="dropdown">
             <a href="#" class="dropdown-toggle cart" data-toggle="dropdown"><span class="glyphicon glyphicon-shopping-cart"></span> Cart <span class="cart-counter">{{cart_count}}</span> <span class="caret"></span></a>

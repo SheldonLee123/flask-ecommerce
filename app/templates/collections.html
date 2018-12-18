@@ -22,7 +22,7 @@
 
   <div class="row">
 
-    {% for item in product %}
+    {% for item in product.items %}
     <div class="col-sm-2 col-xs-6 product_div">
       <div class="product">
         <a href="/product/{{item.id}}"><img src={{url_for('static',filename='images/photos/'+item.image)}} class="product_img"></a>
@@ -44,15 +44,31 @@
 
   <div class="text-center">
     <ul class="pagination">
-      <li class="disabled"><a href="#">«</a></li>
-      <li class="active"><a href="#">1 <span class="sr-only">(current)</span></a></li>
-      <li><a href="#">2</a></li>
-      <li><a href="#">3</a></li>
-      <li><a href="#">4</a></li>
-      <li><a href="#">5</a></li>
-      <li><a href="#">»</a></li>
+      <li {% if not product.has_prev %} class="disabled" {% endif %}><a href="{% if product.has_prev %} {{url_for('collections', page = product.page - 1)}} {% else %}#{% endif %}">«</a></li>
+      {% for p in product.iter_pages() %}
+      {% if p %}
+      {% if p==product.page %}
+      <li class="active">
+        <a href="{{ url_for('collections',page=p) }}">{{p}}</a>
+      </li>
+      {% else %}
+      <li>
+        <a href="{{ url_for('collections',page=p) }}">{{p}}</a>
+      </li>
+      {% endif %}
+      {% else %}
+      <li class="disabled"><a href="#">…</a></li>
+      {% endif %}
+      {% endfor %}
+      <li {% if not product.has_next %} class="disabled" {% endif %}>
+        <a href="{% if product.has_next %}{{ url_for('collections',
+			page = product.page+1) }}{% else %}#{% endif %}">
+          »
+        </a>
+      </li>
     </ul>
   </div>
+
 
 </div>
 <!-- collections -->

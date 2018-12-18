@@ -10,6 +10,9 @@ import os
 from app import app, db
 import logging
 
+# define global varibles
+product_per_page = 1
+
 #set logging
 
 logging.basicConfig(level=logging.NOTSET)
@@ -53,26 +56,26 @@ def index():
     return render_template('index.html')
 
 
-@app.route('/collections')
-def collections():
+@app.route('/collections/<int:page>')
+def collections(page):
     result = session.get('logged_in')
     if result == None:
-        product = Product.query.all()
+        product = Product.query.paginate(page,product_per_page,error_out=False)
         return render_template('collections.html', product=product)
     else:
         user = User.query.filter_by(name=session['name']).first()
         cart = Cart.query.filter_by(user_id=user.id).all()
         cart_count = Cart.query.filter_by(user_id=user.id).count()
-        product = Product.query.all()
+        product = Product.query.paginate(page,product_per_page,error_out=False)
     return render_template('collections.html', product=product, cart=cart,cart_count=cart_count)
 
-@app.route('/category/<string:category>')
-def category(category):
+@app.route('/category/<string:category>/<int:page>')
+def category(category, page):
     result = session.get('logged_in')
     if result == None:
         data = Category.query.filter_by(name=category).first()
         if data != None:
-            product = data.products
+            product = data.products.paginate(page,product_per_page,error_out=False)
             return render_template('category.html', category=category, product=product)
         else:
             return render_template('category.html', category=category)
@@ -82,7 +85,7 @@ def category(category):
         cart_count = Cart.query.filter_by(user_id=user.id).count()
         data = Category.query.filter_by(name=category).first()
         if data != None:
-            product = data.products
+            product = data.products.paginate(page,product_per_page,error_out=False)
             return render_template('category.html', category=category, product=product, cart=cart,cart_count=cart_count)
     return render_template('category.html', category=category)
 
@@ -365,11 +368,11 @@ def product(product_id):
     review_count = Review.query.filter_by(product_id=product.id).count()
     return render_template('product.html', product=product,reviews=reviews,product_id=product_id,review_count=review_count,cart=cart,cart_count=cart_count)
 
-@app.route('/seller_product/<string:user_id>')
+@app.route('/seller_product/<string:user_id>/<int:page>')
 @is_logged_in
 @is_user_seller
-def seller_product(user_id):
-    product = Product.query.filter_by(user_id=session['id']).all()
+def seller_product(user_id, page):
+    product = Product.query.filter_by(user_id=session['id']).paginate(page,product_per_page,error_out=False)
     return render_template('seller_product.html',product=product)
 
 @app.route('/add_review/<string:product_id>', methods=['GET', 'POST'])
